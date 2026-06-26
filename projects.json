@@ -1,0 +1,13 @@
+[
+  {
+    "day": 1,
+    "name": "Armory",
+    "slug": "armory",
+    "date": "2026-06-26",
+    "description": "The hub. A living index of every project in this 365-day build streak. Links out to whatever shipped that day.",
+    "url": "",
+    "repo": "",
+    "tags": ["meta", "web"],
+    "hosted": false
+  }
+]

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Armory — 365 days of building</title>
+  <meta name="description" content="A living index of every project in a 365-day build streak." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="kicker">365 · one thing a day</p>
+      <h1>The&nbsp;Armory</h1>
+      <p class="lede">Every project, every day, racked and cataloged. Some ship to the web. Some only live on a hard drive. All of them count.</p>
+      <div class="progress">
+        <div class="progress-bar"><span id="progress-fill"></span></div>
+        <div class="progress-meta">
+          <span id="progress-count">0 / 365</span>
+          <span id="progress-pct">0%</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav class="controls">
+    <input id="search" type="search" placeholder="search projects…" autocomplete="off" />
+    <div class="filters" id="filters">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="hosted">Hosted</button>
+      <button data-filter="local">Local only</button>
+    </div>
+  </nav>
+
+  <main>
+    <ul id="grid" class="grid"></ul>
+    <p id="empty" class="empty" hidden>Nothing here yet.</p>
+  </main>
+
+  <footer>
+    <div class="foot-left">
+      <span>Day <span id="footer-day">1</span> of 365</span>
+      <span class="dot">·</span>
+      <span>Built with Claude</span>
+    </div>
+    <div class="sig">
+      <span class="sig-by">a year of building by</span>
+      <span class="sig-name">Peerapong Saksommon</span>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
