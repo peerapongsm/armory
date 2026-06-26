@@ -1,7 +1,8 @@
-# The Armory — Day 1 of 365
+# The Armory — 365 things in a year
 
-The hub for a 365-day build streak. One static page that indexes every project
-and links out to the ones that are hosted on the web.
+The hub for a year-long build: one static page indexing every project, the real
+problem it solves, and its status. (Honest framing — a year of building, **not**
+a literal "one project a day".)
 
 Plain HTML/CSS/JS — no build step. GitHub Pages serves it as-is.
 
@@ -20,22 +21,35 @@ Append an object to `projects.json` and push. The page updates itself.
 
 ```json
 {
-  "day": 2,
+  "id": 2,
   "name": "Project name",
   "slug": "project-slug",
-  "date": "2026-06-27",
-  "description": "One or two sentences.",
-  "url": "https://user.github.io/project-2-slug",
-  "repo": "https://github.com/user/project-2-slug",
-  "tags": ["web", "tool"],
-  "hosted": true
+  "issue": "The real problem this addresses.",
+  "solves": "How the finished thing relieves it.",
+  "medium": "web",
+  "tags": ["finance"],
+  "track": "live",
+  "status": "planned",
+  "url": "",
+  "repo": "",
+  "download": "",
+  "graduated": null,
+  "phases": [
+    { "title": "scaffold + data model", "done": false }
+  ]
 }
 ```
 
-- `url` — live site. Empty `""` if not hosted.
-- `repo` — source. Optional.
-- `hosted` — `true` only if there's a real `url`. Drives the "live" badge and the
-  Hosted/Local filter. A card with no `url`/`repo` renders as plain text (no link).
+- `status` — `done` | `building` | `planned`. Drives the badge + the filter.
+- `track` — lifecycle: `live` (hosted/static, shows **live**), `desktop`
+  (GitHub Releases binary, shows **download**), `demo` (backend torn down after
+  the showcase, shows **demo**). See the plan spec §5.
+- `url` / `download` / `repo` — link target (live site / release / source). The
+  card links to the first non-empty of `graduated.url → url → download → repo`.
+- `graduated` — set to `{ "url": "..." }` when a project graduates into a
+  standalone product; shows the **graduated** badge.
+- `phases` — `[{ "title", "done" }]`. Progress = total `done` phases / 365 (the
+  "365 things"). A card shows its phase checklist + `done/total`.
 
 ## Deploy (GitHub Pages)
 
