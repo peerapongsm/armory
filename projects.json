@@ -5,9 +5,9 @@
     "slug": "armory",
     "date": "2026-06-26",
     "description": "The hub. A living index of every project in this 365-day build streak. Links out to whatever shipped that day.",
-    "url": "",
-    "repo": "",
+    "url": "https://peerapongsm.github.io/armory/",
+    "repo": "https://github.com/peerapongsm/armory",
     "tags": ["meta", "web"],
-    "hosted": false
+    "hosted": true
   }
 ]
