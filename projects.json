@@ -26,12 +26,18 @@
     "medium": "web",
     "tags": ["infra", "data"],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://armory-analytics-peerapongsms-projects.vercel.app",
+    "repo": "https://github.com/peerapongsm/armory-analytics",
     "download": "",
     "graduated": null,
-    "phases": []
+    "phases": [
+      { "title": "promotion score + project resolver (TDD core)", "done": true },
+      { "title": "Umami client + GitHub downloads + summary API", "done": true },
+      { "title": "ranked dashboard UI", "done": true },
+      { "title": "self-host Umami + shared tracking snippet", "done": true },
+      { "title": "deploy + wire into Armory", "done": true }
+    ]
   },
   {
     "id": 3,
