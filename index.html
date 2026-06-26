@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>The Armory — 365 days of building</title>
-  <meta name="description" content="A living index of every project in a 365-day build streak." />
+  <title>The Armory — 365 things in a year</title>
+  <meta name="description" content="A living index of a year-long build: 365 problem-solving projects, made with Claude." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -13,9 +13,9 @@
 <body>
   <header class="hero">
     <div class="hero-inner">
-      <p class="kicker">365 · one thing a day</p>
+      <p class="kicker">365 things · one year · made with Claude</p>
       <h1>The&nbsp;Armory</h1>
-      <p class="lede">Every project, every day, racked and cataloged. Some ship to the web. Some only live on a hard drive. All of them count.</p>
+      <p class="lede">A year-long build, racked and cataloged. Every project names a real problem and a real fix. Some ship live, some download, some are demos — all of them count.</p>
       <div class="progress">
         <div class="progress-bar"><span id="progress-fill"></span></div>
         <div class="progress-meta">
@@ -30,8 +30,9 @@
     <input id="search" type="search" placeholder="search projects…" autocomplete="off" />
     <div class="filters" id="filters">
       <button data-filter="all" class="active">All</button>
-      <button data-filter="hosted">Hosted</button>
-      <button data-filter="local">Local only</button>
+      <button data-filter="done">Done</button>
+      <button data-filter="building">Building</button>
+      <button data-filter="planned">Planned</button>
     </div>
   </nav>
 
@@ -42,7 +43,7 @@
 
   <footer>
     <div class="foot-left">
-      <span>Day <span id="footer-day">1</span> of 365</span>
+      <span><span id="footer-count">0</span> of 365 things</span>
       <span class="dot">·</span>
       <span>Built with Claude</span>
     </div>

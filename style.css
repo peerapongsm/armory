@@ -152,7 +152,7 @@ h1 {
   justify-content: space-between;
   margin-bottom: 14px;
 }
-.day-tag {
+.id-tag {
   font-family: "JetBrains Mono", monospace;
   font-size: 12px;
   color: var(--accent);
@@ -176,10 +176,46 @@ h1 {
   border-radius: 99px;
   background: var(--muted);
 }
-.status.hosted { color: var(--green); }
-.status.hosted::before { background: var(--green); box-shadow: 0 0 8px var(--green); }
+.status.live { color: var(--green); }
+.status.live::before { background: var(--green); box-shadow: 0 0 8px var(--green); }
+.status.download { color: #5aa9ff; }
+.status.download::before { background: #5aa9ff; box-shadow: 0 0 8px #5aa9ff; }
+.status.demo { color: #c08bff; }
+.status.demo::before { background: #c08bff; }
+.status.graduated { color: #ffd24d; }
+.status.graduated::before { background: #ffd24d; box-shadow: 0 0 8px #ffd24d; }
+.status.building { color: var(--accent); }
+.status.building::before { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+.status.planned { color: var(--muted); }
+.status.planned::before { background: var(--muted); }
+
 .card h2 { font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
-.card p { color: var(--muted); font-size: 14px; margin-top: 8px; flex: 1; }
+.card .issue, .card .solves {
+  color: var(--muted); font-size: 13.5px; margin-top: 8px; line-height: 1.45;
+}
+.card .issue span, .card .solves span {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--line); margin-right: 6px;
+}
+.card .solves span { color: var(--green); opacity: 0.7; }
+.card .solves { flex: 1; }
+
+.phase-meta {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px; color: var(--muted); margin-top: 14px;
+}
+.phases { list-style: none; margin: 8px 0 0; padding: 0; }
+.phases li {
+  font-size: 12.5px; color: var(--muted);
+  padding-left: 18px; position: relative; margin-top: 4px;
+}
+.phases li::before {
+  content: "○"; position: absolute; left: 0; color: var(--line);
+}
+.phases li.ok { color: var(--text); }
+.phases li.ok::before { content: "●"; color: var(--green); }
+
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 16px; }
 .tag {
   font-family: "JetBrains Mono", monospace;
