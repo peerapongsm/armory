@@ -49,7 +49,7 @@
     "tags": ["mental-health", "cbt", "thai", "ai", "persona"],
     "track": "live",
     "status": "done",
-    "url": "https://cbt-thought-record-peerapongsms-projects.vercel.app",
+    "url": "https://yai-aree.vercel.app",
     "repo": "", "download": "", "graduated": null,
     "phases": [
       { "title": "Core flow + Gemini proxy + consent gate", "done": true },
