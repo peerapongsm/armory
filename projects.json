@@ -132,15 +132,23 @@
   },
   {
     "id": 10,
-    "name": "ภาษีไปไหน — Budget Transparency",
-    "slug": "tax-where",
-    "issue": "Corruption is Thais' #1 worry; public budget and procurement are opaque.",
-    "solves": "Visualize government budget & eGP procurement with red-flag heuristics.",
+    "name": "set-is-dead",
+    "slug": "set-is-dead",
+    "issue": "คนไทยถูกบอกว่ากองทุนลดหย่อนภาษี/SET50 คือทางลงทุนที่ปลอดภัย แต่หลายปีผลตอบแทนแพ้ทางเลือกอื่นไกล",
+    "solves": "Backtest tool — เลือกหุ้นไทย/หุ้นโลก/ทอง/BTC เทียบกับ SET50 + กองทุนลดหย่อนภาษี (RMF/SSF/ESG) ทั้งแบบลงเงินก้อนและ DCA ย้อนได้ถึง 30 ปี โชว์ผลตอบแทน raw + หลังหักภาษีอย่างเป็นธรรม",
     "medium": "web",
-    "tags": ["civic", "data"],
-    "track": "demo",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "tags": ["finance", "investing", "thai", "data"],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/set-is-dead/",
+    "repo": "https://github.com/peerapongsm/set-is-dead",
+    "download": "", "graduated": null,
+    "phases": [
+      { "title": "return + DCA + align math (TDD)", "done": true },
+      { "title": "ingest Yahoo + SEC NAV → baked data", "done": true },
+      { "title": "builder + result UI (lump-sum + DCA modes)", "done": true },
+      { "title": "methodology + GitHub Pages deploy", "done": true }
+    ]
   },
   {
     "id": 11,
