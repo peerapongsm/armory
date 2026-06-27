@@ -41,15 +41,22 @@
   },
   {
     "id": 3,
-    "name": "CBT Thought-Record",
+    "name": "ยายอารี — CBT Thought-Record",
     "slug": "cbt-thought-record",
     "issue": "Stress spirals from repetitive negative thoughts; access to help is scarce.",
-    "solves": "A private Thai CBT thought-record (catch → check → reframe) with a crisis-line fallback.",
+    "solves": "A warm Thai CBT thought-record guided by ยายอารี, a kind-grandmother AI — catch → check → reframe, with a 1323 crisis fallback.",
     "medium": "web",
-    "tags": ["mental-health"],
+    "tags": ["mental-health", "cbt", "thai", "ai", "persona"],
     "track": "live",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "status": "done",
+    "url": "https://cbt-thought-record-peerapongsms-projects.vercel.app",
+    "repo": "", "download": "", "graduated": null,
+    "phases": [
+      { "title": "Core flow + Gemini proxy + consent gate", "done": true },
+      { "title": "Crisis detection + 1323 safety floor", "done": true },
+      { "title": "History + PWA + offline shell", "done": true },
+      { "title": "ยายอารี persona + chat UI revamp", "done": true }
+    ]
   },
   {
     "id": 4,
