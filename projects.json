@@ -6,7 +6,10 @@
     "issue": "A year of small projects scatters with no home; progress stays invisible.",
     "solves": "A living hub that indexes every project, its problem, and its status.",
     "medium": "web",
-    "tags": ["meta", "infra"],
+    "tags": [
+      "meta",
+      "infra"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://peerapongsm.github.io/armory/",
@@ -14,7 +17,10 @@
     "download": "",
     "graduated": null,
     "phases": [
-      { "title": "Hub page, render, deploy on GitHub Pages", "done": true }
+      {
+        "title": "Hub page, render, deploy on GitHub Pages",
+        "done": true
+      }
     ]
   },
   {
@@ -24,7 +30,10 @@
     "issue": "No way to know which projects people actually like, so promotion is guesswork.",
     "solves": "Analytics riding an open-source collector + a cross-project dashboard and promotion score.",
     "medium": "web",
-    "tags": ["infra", "data"],
+    "tags": [
+      "infra",
+      "data"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://armory-analytics-peerapongsms-projects.vercel.app",
@@ -32,11 +41,26 @@
     "download": "",
     "graduated": null,
     "phases": [
-      { "title": "promotion score + project resolver (TDD core)", "done": true },
-      { "title": "Umami client + GitHub downloads + summary API", "done": true },
-      { "title": "ranked dashboard UI", "done": true },
-      { "title": "self-host Umami + shared tracking snippet", "done": true },
-      { "title": "deploy + wire into Armory", "done": true }
+      {
+        "title": "promotion score + project resolver (TDD core)",
+        "done": true
+      },
+      {
+        "title": "Umami client + GitHub downloads + summary API",
+        "done": true
+      },
+      {
+        "title": "ranked dashboard UI",
+        "done": true
+      },
+      {
+        "title": "self-host Umami + shared tracking snippet",
+        "done": true
+      },
+      {
+        "title": "deploy + wire into Armory",
+        "done": true
+      }
     ]
   },
   {
@@ -46,16 +70,36 @@
     "issue": "Stress spirals from repetitive negative thoughts; access to help is scarce.",
     "solves": "A warm Thai CBT thought-record guided by ยายอารี, a kind-grandmother AI — catch → check → reframe, with a 1323 crisis fallback.",
     "medium": "web",
-    "tags": ["mental-health", "cbt", "thai", "ai", "persona"],
+    "tags": [
+      "mental-health",
+      "cbt",
+      "thai",
+      "ai",
+      "persona"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://yai-aree.vercel.app",
-    "repo": "", "download": "", "graduated": null,
+    "repo": "",
+    "download": "",
+    "graduated": null,
     "phases": [
-      { "title": "Core flow + Gemini proxy + consent gate", "done": true },
-      { "title": "Crisis detection + 1323 safety floor", "done": true },
-      { "title": "History + PWA + offline shell", "done": true },
-      { "title": "ยายอารี persona + chat UI revamp", "done": true }
+      {
+        "title": "Core flow + Gemini proxy + consent gate",
+        "done": true
+      },
+      {
+        "title": "Crisis detection + 1323 safety floor",
+        "done": true
+      },
+      {
+        "title": "History + PWA + offline shell",
+        "done": true
+      },
+      {
+        "title": "ยายอารี persona + chat UI revamp",
+        "done": true
+      }
     ]
   },
   {
@@ -65,17 +109,35 @@
     "issue": "All-day rumination and anxiety.",
     "solves": "CBT scheduled-worry-time: park worries in a locked box, review them only in a set daily window, and see how many never came true.",
     "medium": "web",
-    "tags": ["mental-health", "cbt", "thai", "pwa"],
+    "tags": [
+      "mental-health",
+      "cbt",
+      "thai",
+      "pwa"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://peerapongsm.github.io/glong-pak-jai/",
     "repo": "https://github.com/peerapongsm/glong-pak-jai",
-    "download": "", "graduated": null,
+    "download": "",
+    "graduated": null,
     "phases": [
-      { "title": "Worry box: capture, lock outside window, review inside", "done": true },
-      { "title": "Window state machine + recurring .ics calendar reminder", "done": true },
-      { "title": "Didn't-happen % stat + on-device storage (export/clear)", "done": true },
-      { "title": "Theme, crisis 1323 card, PWA + GitHub Pages deploy", "done": true }
+      {
+        "title": "Worry box: capture, lock outside window, review inside",
+        "done": true
+      },
+      {
+        "title": "Window state machine + recurring .ics calendar reminder",
+        "done": true
+      },
+      {
+        "title": "Didn't-happen % stat + on-device storage (export/clear)",
+        "done": true
+      },
+      {
+        "title": "Theme, crisis 1323 card, PWA + GitHub Pages deploy",
+        "done": true
+      }
     ]
   },
   {
@@ -85,7 +147,12 @@
     "issue": "หนี้คือความเครียดอันดับ 1 ของคนไทย คนจมอยู่กับความกังวล ไม่รู้ว่าหนี้แต่ละก้อนแพงจริงแค่ไหน และไม่รู้ว่ามีทางออกที่ไหน",
     "solves": "จัดระเบียบหนี้ที่กังวล เห็นดอกเบี้ยจริงต่อปี (effective APR) ของทุกก้อน แล้วได้ทางออกจริง (คลินิกแก้หนี้/ไกล่เกลี่ย) + ก้าวต่อไปที่ลงมือได้ รวม #9 (true-cost + way-out) เข้าด้วยกัน ทำงานบนเครื่อง ไม่ต้องล็อกอิน ใช้ออฟไลน์ได้",
     "medium": "web",
-    "tags": ["mental-health", "finance", "debt", "thai"],
+    "tags": [
+      "mental-health",
+      "finance",
+      "debt",
+      "thai"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://peerapongsm.github.io/klai-nee/",
@@ -93,23 +160,59 @@
     "download": "",
     "graduated": null,
     "phases": [
-      { "title": "Effective-APR + rank + crisis floor + solutions (TDD core)", "done": true },
-      { "title": "Theme + consent gate + crisis components", "done": true },
-      { "title": "Debt form, ranked list, detail (APR hero + ทางออก)", "done": true },
-      { "title": "PWA + GitHub Pages deploy + Umami", "done": true }
+      {
+        "title": "Effective-APR + rank + crisis floor + solutions (TDD core)",
+        "done": true
+      },
+      {
+        "title": "Theme + consent gate + crisis components",
+        "done": true
+      },
+      {
+        "title": "Debt form, ranked list, detail (APR hero + ทางออก)",
+        "done": true
+      },
+      {
+        "title": "PWA + GitHub Pages deploy + Umami",
+        "done": true
+      }
     ]
   },
   {
     "id": 6,
-    "name": "GPP Fit-out Planner",
-    "slug": "gpp-fitout-planner",
+    "name": "GPP Floor Check",
+    "slug": "gpp-floor-check",
     "issue": "A new pharmacy must pass GPP's 5 standards but layout/compliance is confusing.",
     "solves": "Visual store-layout planner that checks GPP zones; validated by a pharmacist.",
     "medium": "web",
-    "tags": ["pharmacy-startup"],
+    "tags": [
+      "pharmacy-startup",
+      "gpp"
+    ],
     "track": "live",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "status": "done",
+    "url": "https://peerapongsm.github.io/GPP-Floor-Check/",
+    "repo": "https://github.com/peerapongsm/GPP-Floor-Check",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "GPP rule model + core logic (TDD): gap report, auto-layout, layout checker",
+        "done": true
+      },
+      {
+        "title": "wizard + result view (gap report + suggested/reference layouts)",
+        "done": true
+      },
+      {
+        "title": "drag-and-drop floor editor + printable readiness report",
+        "done": true
+      },
+      {
+        "title": "GitHub Pages deploy",
+        "done": true
+      }
+    ]
   },
   {
     "id": 7,
@@ -118,10 +221,17 @@
     "issue": "Picking a pharmacy spot blind to nearby competition.",
     "solves": "Map nearby pharmacies/clinics + density from free OpenStreetMap. Shows saturation, not demand.",
     "medium": "web",
-    "tags": ["pharmacy-startup", "map"],
+    "tags": [
+      "pharmacy-startup",
+      "map"
+    ],
     "track": "live",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 8,
@@ -130,10 +240,17 @@
     "issue": "A new pharmacy doesn't know what to stock first.",
     "solves": "Starter drug list (NLEM) + reorder levels; prices via manual CSV import for supplier compare.",
     "medium": "web",
-    "tags": ["pharmacy-startup", "data"],
+    "tags": [
+      "pharmacy-startup",
+      "data"
+    ],
     "track": "live",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 10,
@@ -142,17 +259,35 @@
     "issue": "คนไทยถูกบอกว่ากองทุนลดหย่อนภาษี/SET50 คือทางลงทุนที่ปลอดภัย แต่หลายปีผลตอบแทนแพ้ทางเลือกอื่นไกล",
     "solves": "Backtest tool — เลือกหุ้นไทย/หุ้นโลก/ทอง/BTC เทียบกับ SET50 + กองทุนลดหย่อนภาษี (RMF/SSF/ESG) ทั้งแบบลงเงินก้อนและ DCA ย้อนได้ถึง 30 ปี โชว์ผลตอบแทน raw + หลังหักภาษีอย่างเป็นธรรม",
     "medium": "web",
-    "tags": ["finance", "investing", "thai", "data"],
+    "tags": [
+      "finance",
+      "investing",
+      "thai",
+      "data"
+    ],
     "track": "live",
     "status": "done",
     "url": "https://peerapongsm.github.io/set-is-dead/",
     "repo": "https://github.com/peerapongsm/set-is-dead",
-    "download": "", "graduated": null,
+    "download": "",
+    "graduated": null,
     "phases": [
-      { "title": "return + DCA + align math (TDD)", "done": true },
-      { "title": "ingest Yahoo + SEC NAV → baked data", "done": true },
-      { "title": "builder + result UI (lump-sum + DCA modes)", "done": true },
-      { "title": "methodology + GitHub Pages deploy", "done": true }
+      {
+        "title": "return + DCA + align math (TDD)",
+        "done": true
+      },
+      {
+        "title": "ingest Yahoo + SEC NAV → baked data",
+        "done": true
+      },
+      {
+        "title": "builder + result UI (lump-sum + DCA modes)",
+        "done": true
+      },
+      {
+        "title": "methodology + GitHub Pages deploy",
+        "done": true
+      }
     ]
   },
   {
@@ -162,10 +297,18 @@
     "issue": "People relocating or weighing job offers can't compare living cost across provinces.",
     "solves": "Compare a standard basket across provinces using published regional CPI/price data.",
     "medium": "web",
-    "tags": ["civic", "cost-of-living", "data"],
+    "tags": [
+      "civic",
+      "cost-of-living",
+      "data"
+    ],
     "track": "live",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 12,
@@ -174,10 +317,17 @@
     "issue": "Finding the right gov office, its hours, and required documents is painful.",
     "solves": "Nearest gov office/hospital + hours (open data/OSM) + curated required-docs for common services.",
     "medium": "web",
-    "tags": ["civic", "map"],
+    "tags": [
+      "civic",
+      "map"
+    ],
     "track": "live",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 13,
@@ -186,10 +336,16 @@
     "issue": "Smallholders have low tech adoption, volatile prices, and high fertilizer cost.",
     "solves": "Offline desktop app: fertilizer optimizer (ปุ๋ยสั่งตัด) + crop-price tracker + planting/pest calendar.",
     "medium": "desktop",
-    "tags": ["agriculture"],
+    "tags": [
+      "agriculture"
+    ],
     "track": "desktop",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 14,
@@ -198,9 +354,16 @@
     "issue": "Small shops fail from cashflow blindness; SME NPLs are rising.",
     "solves": "A ~15-question wizard → cash runway, break-even, danger flags + pricing. No CSV, no inventory.",
     "medium": "web",
-    "tags": ["sme", "finance"],
+    "tags": [
+      "sme",
+      "finance"
+    ],
     "track": "live",
     "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   }
 ]
