@@ -253,7 +253,7 @@
     "phases": []
   },
   {
-    "id": 10,
+    "id": 9,
     "name": "set-is-dead",
     "slug": "set-is-dead",
     "issue": "คนไทยถูกบอกว่ากองทุนลดหย่อนภาษี/SET50 คือทางลงทุนที่ปลอดภัย แต่หลายปีผลตอบแทนแพ้ทางเลือกอื่นไกล",
@@ -291,7 +291,7 @@
     ]
   },
   {
-    "id": 11,
+    "id": 10,
     "name": "Cost-of-Living Index by Province",
     "slug": "col-index",
     "issue": "People relocating or weighing job offers can't compare living cost across provinces.",
@@ -311,7 +311,7 @@
     "phases": []
   },
   {
-    "id": 12,
+    "id": 11,
     "name": "หาบริการรัฐใกล้ฉัน — Gov Service Locator",
     "slug": "gov-service-locator",
     "issue": "Finding the right gov office, its hours, and required documents is painful.",
@@ -330,7 +330,7 @@
     "phases": []
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Farmer Companion",
     "slug": "farmer-companion",
     "issue": "Smallholders have low tech adoption, volatile prices, and high fertilizer cost.",
@@ -348,7 +348,7 @@
     "phases": []
   },
   {
-    "id": 14,
+    "id": 13,
     "name": "Shop Money Health",
     "slug": "shop-money-health",
     "issue": "Small shops fail from cashflow blindness; SME NPLs are rising.",
