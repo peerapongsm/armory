@@ -194,9 +194,10 @@ h1 {
   color: var(--muted); font-size: 13.5px; margin-top: 8px; line-height: 1.45;
 }
 .card .issue span, .card .solves span {
+  display: block;
   font-family: "JetBrains Mono", monospace;
   font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
-  color: var(--line); margin-right: 6px;
+  color: var(--line); margin-bottom: 3px;
 }
 .card .issue span { color: #e03131; }
 .card .solves span { color: var(--green); opacity: 0.7; }
