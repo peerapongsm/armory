@@ -60,15 +60,23 @@
   },
   {
     "id": 4,
-    "name": "Worry Window",
+    "name": "กล่องพักใจ (Worry Window)",
     "slug": "worry-window",
     "issue": "All-day rumination and anxiety.",
-    "solves": "CBT scheduled-worry-time: park worries, surface them only in a set window.",
+    "solves": "CBT scheduled-worry-time: park worries in a locked box, review them only in a set daily window, and see how many never came true.",
     "medium": "web",
-    "tags": ["mental-health"],
+    "tags": ["mental-health", "cbt", "thai", "pwa"],
     "track": "live",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "status": "done",
+    "url": "https://peerapongsm.github.io/glong-pak-jai/",
+    "repo": "https://github.com/peerapongsm/glong-pak-jai",
+    "download": "", "graduated": null,
+    "phases": [
+      { "title": "Worry box: capture, lock outside window, review inside", "done": true },
+      { "title": "Window state machine + recurring .ics calendar reminder", "done": true },
+      { "title": "Didn't-happen % stat + on-device storage (export/clear)", "done": true },
+      { "title": "Theme, crisis 1323 card, PWA + GitHub Pages deploy", "done": true }
+    ]
   },
   {
     "id": 5,
