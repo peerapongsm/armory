@@ -264,24 +264,6 @@
       "map"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
-    "download": "",
-    "graduated": null,
-    "phases": []
-  },
-  {
-    "id": 9,
-    "name": "Farmer Companion",
-    "slug": "farmer-companion",
-    "issue": "Smallholders have low tech adoption, volatile prices, and high fertilizer cost.",
-    "solves": "Offline desktop app: fertilizer optimizer (ปุ๋ยสั่งตัด) + crop-price tracker + planting/pest calendar.",
-    "medium": "desktop",
-    "tags": [
-      "agriculture"
-    ],
-    "track": "live",
     "status": "done",
     "url": "https://peerapongsm.github.io/gov-service-locator/",
     "repo": "https://github.com/peerapongsm/gov-service-locator",
@@ -309,6 +291,24 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 9,
+    "name": "Farmer Companion",
+    "slug": "farmer-companion",
+    "issue": "Smallholders have low tech adoption, volatile prices, and high fertilizer cost.",
+    "solves": "Offline desktop app: fertilizer optimizer (ปุ๋ยสั่งตัด) + crop-price tracker + planting/pest calendar.",
+    "medium": "desktop",
+    "tags": [
+      "agriculture"
+    ],
+    "track": "desktop",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": []
   },
   {
     "id": 10,
