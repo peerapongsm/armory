@@ -294,21 +294,42 @@
   },
   {
     "id": 9,
-    "name": "Farmer Companion",
-    "slug": "farmer-companion",
-    "issue": "Smallholders have low tech adoption, volatile prices, and high fertilizer cost.",
-    "solves": "Offline desktop app: fertilizer optimizer (ปุ๋ยสั่งตัด) + crop-price tracker + planting/pest calendar.",
+    "name": "เพื่อนเกษตร (Farmer Companion)",
+    "slug": "puan-kaset",
+    "issue": "เกษตรกรรายย่อยใช้ปุ๋ยตามความเคยชิน/คำชวนของร้าน เปลืองเงิน และพลาดจังหวะปลูก/คุมศัตรูพืช",
+    "solves": "แอปเดสก์ท็อปออฟไลน์ ฟรี ไม่ต้องเน็ต: คำนวณปุ๋ยตามค่าวิเคราะห์ดิน (พืชไร่+ไม้ผล) และปฏิทินเพาะปลูก/ศัตรูพืชรายภาค",
     "medium": "desktop",
     "tags": [
-      "agriculture"
+      "agriculture",
+      "fertilizer",
+      "thai",
+      "desktop",
+      "offline"
     ],
     "track": "desktop",
-    "status": "planned",
+    "status": "done",
     "url": "",
-    "repo": "",
-    "download": "",
+    "repo": "https://github.com/peerapongsm/puan-kaset",
+    "download": "https://github.com/peerapongsm/puan-kaset/releases/latest",
     "graduated": null,
-    "phases": []
+    "phases": [
+      {
+        "title": "field-crop fertilizer engine (soil level → NPK → bags)",
+        "done": true
+      },
+      {
+        "title": "fruit fertilizer engine (tree age → stage plan)",
+        "done": true
+      },
+      {
+        "title": "planting/pest calendar by region",
+        "done": true
+      },
+      {
+        "title": "Tauri desktop packaging + GitHub Release",
+        "done": true
+      }
+    ]
   },
   {
     "id": 10,
