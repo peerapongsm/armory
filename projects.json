@@ -80,15 +80,24 @@
   },
   {
     "id": 5,
-    "name": "Debt-Stress Companion",
-    "slug": "debt-stress-companion",
-    "issue": "Debt is Thailand's #1 stressor; people feel buried and frozen.",
-    "solves": "Breathe → pick the most worrying debt → one concrete next step. Eases overwhelm.",
+    "name": "คลายหนี้",
+    "slug": "klai-nee",
+    "issue": "หนี้คือความเครียดอันดับ 1 ของคนไทย คนจมอยู่กับความกังวล ไม่รู้ว่าหนี้แต่ละก้อนแพงจริงแค่ไหน และไม่รู้ว่ามีทางออกที่ไหน",
+    "solves": "จัดระเบียบหนี้ที่กังวล เห็นดอกเบี้ยจริงต่อปี (effective APR) ของทุกก้อน แล้วได้ทางออกจริง (คลินิกแก้หนี้/ไกล่เกลี่ย) + ก้าวต่อไปที่ลงมือได้ รวม #9 (true-cost + way-out) เข้าด้วยกัน ทำงานบนเครื่อง ไม่ต้องล็อกอิน ใช้ออฟไลน์ได้",
     "medium": "web",
-    "tags": ["mental-health", "finance"],
+    "tags": ["mental-health", "finance", "debt", "thai"],
     "track": "live",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
+    "status": "done",
+    "url": "https://peerapongsm.github.io/klai-nee/",
+    "repo": "https://github.com/peerapongsm/klai-nee",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      { "title": "Effective-APR + rank + crisis floor + solutions (TDD core)", "done": true },
+      { "title": "Theme + consent gate + crisis components", "done": true },
+      { "title": "Debt form, ranked list, detail (APR hero + ทางออก)", "done": true },
+      { "title": "PWA + GitHub Pages deploy + Umami", "done": true }
+    ]
   },
   {
     "id": 6,
@@ -122,18 +131,6 @@
     "solves": "Starter drug list (NLEM) + reorder levels; prices via manual CSV import for supplier compare.",
     "medium": "web",
     "tags": ["pharmacy-startup", "data"],
-    "track": "live",
-    "status": "planned",
-    "url": "", "repo": "", "download": "", "graduated": null, "phases": []
-  },
-  {
-    "id": 9,
-    "name": "Informal-Debt: True Cost + Way Out",
-    "slug": "informal-debt-truecost",
-    "issue": "Predatory informal debt hides its real cost; borrowers don't know escape routes.",
-    "solves": "Compute true effective APR + payoff plan; curated Thai debt-relief pathways + eligibility check.",
-    "medium": "web",
-    "tags": ["finance"],
     "track": "live",
     "status": "planned",
     "url": "", "repo": "", "download": "", "graduated": null, "phases": []
