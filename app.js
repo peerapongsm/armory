@@ -79,10 +79,9 @@ function card(p) {
 
 function render() {
   const grid = $("#grid");
-  const rank = { done: 0, building: 1, planned: 2 };
   const visible = state.projects
     .filter(matches)
-    .sort((a, b) => (rank[a.status] - rank[b.status]) || a.id - b.id);
+    .sort((a, b) => a.id - b.id);
   grid.replaceChildren(...visible.map(card));
   $("#empty").hidden = visible.length > 0;
 }
