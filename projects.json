@@ -281,13 +281,34 @@
     "tags": [
       "agriculture"
     ],
-    "track": "desktop",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/gov-service-locator/",
+    "repo": "https://github.com/peerapongsm/gov-service-locator",
     "download": "",
     "graduated": null,
-    "phases": []
+    "phases": [
+      {
+        "title": "Data feasibility (OSM/Overpass + curation sources verified)",
+        "done": true
+      },
+      {
+        "title": "Core libs + service catalog (distance, classify, geo, 16 services)",
+        "done": true
+      },
+      {
+        "title": "Ingest real OSM offices + province PiP (1145 offices baked)",
+        "done": true
+      },
+      {
+        "title": "Persona-first UI + lazy locator + PWA",
+        "done": true
+      },
+      {
+        "title": "Deploy GitHub Pages + Umami + armory",
+        "done": true
+      }
+    ]
   },
   {
     "id": 10,
