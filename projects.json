@@ -349,5 +349,108 @@
     "download": "",
     "graduated": null,
     "phases": []
+  },
+  {
+    "id": 11,
+    "name": "DuckDuckWash",
+    "slug": "duckduckwash",
+    "issue": "Laundry and dry-clean shops track orders on paper — lost tickets, no customer history, manual day-end totals.",
+    "solves": "Offline desktop POS for laundry shops: take orders, manage customers, track order status, and pull daily/period reports with Excel export. Local SQLite, no internet.",
+    "medium": "desktop",
+    "tags": [
+      "sme",
+      "pos",
+      "laundry",
+      "desktop",
+      "offline"
+    ],
+    "track": "desktop",
+    "status": "done",
+    "url": "",
+    "repo": "https://github.com/peerapongsm/duckduckwash",
+    "download": "https://github.com/peerapongsm/duckduckwash/releases/latest",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Orders + customer management (local SQLite)",
+        "done": true
+      },
+      {
+        "title": "Reports + Excel export",
+        "done": true
+      },
+      {
+        "title": "Electron packaging + auto-update releases",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "DuckDuckPlan",
+    "slug": "duckduckplan",
+    "issue": "Personal and small-team project planning is scattered across apps, with no single offline place for tasks, timeline, and files.",
+    "solves": "Offline desktop project planner: projects in Board / Gantt / List / Matrix / Time views, plus calendar, dashboard, and file attachments. Local SQLite.",
+    "medium": "desktop",
+    "tags": [
+      "productivity",
+      "project-management",
+      "desktop",
+      "offline"
+    ],
+    "track": "desktop",
+    "status": "done",
+    "url": "",
+    "repo": "https://github.com/peerapongsm/duckduckplan",
+    "download": "https://github.com/peerapongsm/duckduckplan/releases/latest",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Multi-view project board (Board/Gantt/List/Matrix/Time)",
+        "done": true
+      },
+      {
+        "title": "Calendar, dashboard, and file attachments",
+        "done": true
+      },
+      {
+        "title": "Electron packaging + release",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "PromptFiled",
+    "slug": "promptfiled",
+    "issue": "Thai government and official forms are confusing to fill out correctly by hand.",
+    "solves": "A guided wizard that walks you through official Thai forms field by field and outputs a print-ready PDF.",
+    "medium": "web",
+    "tags": [
+      "civic",
+      "forms",
+      "thai",
+      "pdf"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://prompt-filed.vercel.app",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Guided form wizard (field-by-field)",
+        "done": true
+      },
+      {
+        "title": "Print-ready PDF generation",
+        "done": true
+      },
+      {
+        "title": "Accounts + deploy on Vercel",
+        "done": true
+      }
+    ]
   }
 ]
