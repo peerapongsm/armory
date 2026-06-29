@@ -471,5 +471,50 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 14,
+    "name": "ลด-ละ-เลิก (Lod-La-Lerk)",
+    "slug": "lod-la-lerk",
+    "issue": "คนไทยที่อยากเลิกบุหรี่/เหล้า/สิ่งเสพติด ขาดแรงจูงใจต่อเนื่องและรู้สึกว่าสู้อยู่คนเดียว",
+    "solves": "แอปมือถือ (iOS/Android) นับวันที่เลิกได้ พร้อมไฟ streak ที่เปลี่ยนสีตามเวลา เช็คอินรายวัน กระดานผู้นำให้รู้สึกไม่โดดเดี่ยว และการเตือนในเครื่อง — 100% ออฟไลน์ ไม่เก็บข้อมูลออกนอกเครื่อง",
+    "medium": "mobile",
+    "tags": [
+      "addiction",
+      "quit",
+      "streak",
+      "thai",
+      "mobile",
+      "offline",
+      "flutter"
+    ],
+    "track": "mobile",
+    "status": "done",
+    "url": "",
+    "repo": "https://github.com/peerapongsm/lod-la-lerk",
+    "download": "https://github.com/peerapongsm/lod-la-lerk/releases/latest",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "streak / tier / vitality / relapse engine (offline, TDD)",
+        "done": true
+      },
+      {
+        "title": "fake on-device leaderboard (seeded-past, sawtooth, ranked window)",
+        "done": true
+      },
+      {
+        "title": "local notifications (rolling reminder buffer)",
+        "done": true
+      },
+      {
+        "title": "Ember dark UI + tier-colored Lottie fire + Boon Thai font",
+        "done": true
+      },
+      {
+        "title": "Android release APK on GitHub Releases",
+        "done": true
+      }
+    ]
   }
 ]
