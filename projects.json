@@ -333,22 +333,41 @@
   },
   {
     "id": 10,
-    "name": "Shop Money Health",
-    "slug": "shop-money-health",
-    "issue": "Small shops fail from cashflow blindness; SME NPLs are rising.",
-    "solves": "A ~15-question wizard → cash runway, break-even, danger flags + pricing. No CSV, no inventory.",
+    "name": "เพื่อนคู่ร้าน (Shop Buddy)",
+    "slug": "shop-buddy",
+    "issue": "ร้านเล็กและคนค้าขายรายย่อยเจ๊งเพราะมองไม่เห็นกระแสเงินสด ไม่รู้ว่าร้านยังไหวอยู่ไหม หนี้ SME ก็พุ่ง",
+    "solves": "ตอบคำถามง่ายๆ ราว 10-13 ข้อ แล้วเห็นภาพการเงินร้านตรงๆ: เงินหมุนเหลือกี่เดือน (runway) / ต้องขายเท่าไหร่ถึงคุ้มทุน / กำไรจริงต่อเดือน พร้อมธงเตือนจุดเสี่ยงและไอเดียปรับ รองรับ 10 ประเภทร้าน รวมไรเดอร์/แท็กซี่ ลองปรับราคาดูผลได้ เก็บประวัติดูแนวโน้มกำไร ไม่ใช้ AI ทำงานบนเครื่อง ออฟไลน์ ฟรี",
     "medium": "web",
     "tags": [
       "sme",
-      "finance"
+      "finance",
+      "thai",
+      "pwa"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/shop-buddy/",
+    "repo": "https://github.com/peerapongsm/shop-buddy",
     "download": "",
     "graduated": null,
-    "phases": []
+    "phases": [
+      {
+        "title": "Cashflow engine + 3-state snapshot (runway/break-even/profit) + flags (TDD)",
+        "done": true
+      },
+      {
+        "title": "10 shop-type configs + universal/type danger flags + price what-if lever",
+        "done": true
+      },
+      {
+        "title": "Type picker + one-question-per-screen wizard + result view",
+        "done": true
+      },
+      {
+        "title": "History + SVG profit trend + JSON backup + PWA + GitHub Pages deploy",
+        "done": true
+      }
+    ]
   },
   {
     "id": 11,
