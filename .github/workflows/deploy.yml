@@ -23,9 +23,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/configure-pages@v5
-      # plain static site — deploy the repo root as-is, no build step
+      # plain static site — stage everything except .git/.github into _site
+      # (uploading the raw repo root wedges the Pages deployment queue)
+      - run: rsync -a --exclude '.git' --exclude '.github' --exclude '_site' ./ _site/
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
