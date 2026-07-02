@@ -606,5 +606,41 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 17,
+    "name": "หนี้ครัวเรือนสด (Live Household Debt Counter)",
+    "slug": "debt-counter",
+    "issue": "หนี้ครัวเรือนไทยเป็นตัวเลขระดับล้านล้านที่ไม่มีใครรู้สึกอะไรกับมัน เพราะมันใหญ่เกินจินตนาการ",
+    "solves": "หน้าเดียว ตัวเลขหนี้ครัวเรือนไทยวิ่งขึ้นแบบเรียลไทม์ พร้อม 'ส่วนของคุณ' ต่อหัว อ้างอิงสถิติธนาคารแห่งประเทศไทยและ NSO",
+    "medium": "web",
+    "tags": [
+      "viral",
+      "finance",
+      "debt",
+      "data",
+      "thai",
+      "bot"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/debt-counter/",
+    "repo": "https://github.com/peerapongsm/debt-counter",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Pull BOT household debt series + DOPA population, derive per-second growth rate",
+        "done": true
+      },
+      {
+        "title": "Single-page ticking counter + per-capita share + share card",
+        "done": true
+      },
+      {
+        "title": "Link quietly into คลายหนี้ as the action step",
+        "done": true
+      }
+    ]
   }
 ]
