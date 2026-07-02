@@ -516,5 +516,59 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 15,
+    "name": "RunClub Social",
+    "slug": "runclub-social",
+    "issue": "ชมรมวิ่งต้องกระจายงานหลายแอป — นัดวิ่งใน LINE ดู GPS ใน Strava ไม่มีที่เดียวที่รวมชมรม อีเวนต์ แชท และการวิ่งสดไว้ด้วยกัน",
+    "solves": "แอปมือถือ social × running สำหรับชมรมวิ่ง: สร้างชมรม นัดอีเวนต์ วิ่งสดเห็นเพื่อนร่วมทางบนแผนที่แบบ real-time บันทึกเส้นทางและสถิติ แชท และฟีดกิจกรรม — งานสร้างให้ลูกค้า (client project)",
+    "medium": "mobile",
+    "tags": [
+      "running",
+      "club",
+      "social",
+      "gps",
+      "realtime",
+      "react-native",
+      "supabase",
+      "client"
+    ],
+    "track": "mobile",
+    "status": "done",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Foundation: Google/Apple SSO, clubs/membership, RLS + pgTAP",
+        "done": true
+      },
+      {
+        "title": "Events + nearby discovery (PostGIS, privacy-preserving)",
+        "done": true
+      },
+      {
+        "title": "Live GPS (ephemeral broadcast) + recorded tracks + stats rollup",
+        "done": true
+      },
+      {
+        "title": "Chat (DM/club/event) + block/report/word-filter safety",
+        "done": true
+      },
+      {
+        "title": "Feed: activity/text posts, likes, comments, private media",
+        "done": true
+      },
+      {
+        "title": "Push notifications + event reminders + store checklist",
+        "done": true
+      },
+      {
+        "title": "Trail Green design system, dark mode, 5-tab nav",
+        "done": true
+      }
+    ]
   }
 ]
