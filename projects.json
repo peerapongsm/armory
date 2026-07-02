@@ -573,42 +573,6 @@
   },
   {
     "id": 16,
-    "name": "สายโจรจำลอง (Scam Call Trainer)",
-    "slug": "scam-call-trainer",
-    "issue": "แก๊งคอลเซ็นเตอร์หลอกคนไทยเสียหายมหาศาลทุกปี แต่คนส่วนใหญ่ไม่เคยได้ 'ซ้อม' รับสายโจรจริงๆ",
-    "solves": "AI สวมบทมิจฉาชีพโทรมาหาคุณ ฝึกจับพิรุธและวางสายให้ทัน ให้คะแนน+การ์ดแชร์ อ้างอิงสถิติความเสียหายจากศูนย์ AOC 1441/ตำรวจ และรูปแบบกลโกงที่เผยแพร่อย่างเป็นทางการ",
-    "medium": "web",
-    "tags": [
-      "viral",
-      "ai",
-      "scam",
-      "safety",
-      "thai",
-      "persona"
-    ],
-    "track": "live",
-    "status": "done",
-    "url": "https://scam-call-trainer.vercel.app",
-    "repo": "https://github.com/peerapongsm/scam-call-trainer",
-    "download": "",
-    "graduated": null,
-    "phases": [
-      {
-        "title": "Compile official scam-pattern taxonomy + AOC/police loss statistics for on-page citations",
-        "done": true
-      },
-      {
-        "title": "AI scammer persona chat flow with tap-to-flag detection scoring (Gemini)",
-        "done": true
-      },
-      {
-        "title": "Share card + deploy live on Vercel with real-AI verification",
-        "done": true
-      }
-    ]
-  },
-  {
-    "id": 17,
     "name": "หนี้ครัวเรือนสด (Live Household Debt Counter)",
     "slug": "debt-counter",
     "issue": "หนี้ครัวเรือนไทยเป็นตัวเลขระดับล้านล้านที่ไม่มีใครรู้สึกอะไรกับมัน เพราะมันใหญ่เกินจินตนาการ",
