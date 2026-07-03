@@ -1110,10 +1110,10 @@
   },
   {
     "id": 30,
-    "name": "หนึ่งคืนที่หอพัก",
+    "name": "เรื่องเล่าก่อนฟ้าสาง",
     "slug": "if-horpak",
     "issue": "เรื่องผีไทย + นิยายเลือกทางเดิน เป็นคู่ที่แทบไม่มีใครทำ",
-    "solves": "นิยายสยองเลือกทางเดิน 37 nodes 5 endings (มี secret ending) + ระบบสติ 3 เทียน — กราฟเรื่องทั้งหมด validate เป็น test, จบใน 10-20 นาที เล่นซ้ำได้",
+    "solves": "รวมนิยายสยองเลือกทางเดิน 2 เรื่อง: «หนึ่งคืนที่หอพัก» (37 nodes 5 endings) + «รถเมล์สายสุดท้าย» (39 nodes 6 endings) — ระบบสติ 3 เทียน, secret endings, ปรับความเร็วตัวอักษรได้, เสียงบรรยากาศหลอนสังเคราะห์ล้วน (Web Audio) — กราฟเรื่องทั้งหมด validate เป็น test, เล่นซ้ำได้",
     "medium": "web",
     "tags": [
       "story",
@@ -1142,6 +1142,10 @@
       },
       {
         "title": "Candle-lit design pass + deploy",
+        "done": true
+      },
+      {
+        "title": "Text-speed setting + เรื่องที่ 2 «รถเมล์สายสุดท้าย» + ambient audio",
         "done": true
       }
     ]
