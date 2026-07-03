@@ -762,5 +762,844 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 21,
+    "name": "หมากรุกไทยออนไลน์ (Makruk)",
+    "slug": "makruk",
+    "issue": "หมากรุกสากลมีเว็บดีๆ เป็นพัน แต่หมากรุกไทยแทบไม่มีเวอร์ชันเว็บสมัยใหม่",
+    "solves": "หมากรุกไทยกติกาเต็ม (เบี้ยหงาย, นับกระดาน/นับศักดิ์หมากตามตาราง) เล่น 2 คนหรือสู้บอท 3 ระดับ (minimax ใน Web Worker) — engine เขียนเองทั้งตัว perft-tested, ดีไซน์ลายรดน้ำดำ-ทอง",
+    "medium": "web",
+    "tags": [
+      "play",
+      "game",
+      "makruk",
+      "thai",
+      "engine"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/makruk/",
+    "repo": "https://github.com/peerapongsm/makruk",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Engine TDD: move gen / check / counting rules (perft verified)",
+        "done": true
+      },
+      {
+        "title": "Minimax bot 3 levels in Web Worker",
+        "done": true
+      },
+      {
+        "title": "Board UI + /method",
+        "done": true
+      },
+      {
+        "title": "Lacquer-gold design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "ทายจังหวัดวันละครั้ง (Daily Thai Puzzle)",
+    "slug": "daily-puzzle",
+    "issue": "เกม daily แบบ Wordle สร้างผู้เล่นประจำได้ดีที่สุด แต่ยังไม่มีเวอร์ชันทายจังหวัดไทย",
+    "solves": "วันละ 1 จังหวัด ใบ้ 6 ชั้น (เงาโครงร่าง→ภาค→ประชากร→จังหวัดติดกัน→คำขวัญ→อักษรแรก) + feedback ระยะทาง/ทิศ, ข้อมูลจริง 77 จังหวัด, แชร์ emoji grid, สถิติ local",
+    "medium": "web",
+    "tags": [
+      "play",
+      "daily",
+      "puzzle",
+      "thai",
+      "geography"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/daily-puzzle/",
+    "repo": "https://github.com/peerapongsm/daily-puzzle",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Data: 77 provinces (outline/adjacency/motto honest-null)",
+        "done": true
+      },
+      {
+        "title": "TDD: seed cycle / haversine / bearing / stats",
+        "done": true
+      },
+      {
+        "title": "Puzzle UI + share + practice mode",
+        "done": true
+      },
+      {
+        "title": "Expedition-map design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Traffic God",
+    "slug": "traffic-god",
+    "issue": "คนกรุงเทพด่าไฟแดงทุกวัน — แต่ไม่เคยได้ลองคุมเอง",
+    "solves": "คุมไฟแดงสี่แยกเอง 5 ด่าน: รถเมล์ช้า มอไซค์แทรก รถพยาบาลต้องปล่อยด่วน ฝนตก spawn พุ่ง — sim deterministic ล้วน, แพ้เมื่อความเดือดรวมระเบิด",
+    "medium": "web",
+    "tags": [
+      "play",
+      "simulation",
+      "bangkok",
+      "traffic"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/traffic-god/",
+    "repo": "https://github.com/peerapongsm/traffic-god",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Deterministic sim TDD (queue/light/rage/levels)",
+        "done": true
+      },
+      {
+        "title": "Canvas renderer + one-button controls",
+        "done": true
+      },
+      {
+        "title": "5 levels + share",
+        "done": true
+      },
+      {
+        "title": "Signage-industrial design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "พิมพ์ไล่ผี (Typing of the Ghosts)",
+    "slug": "typing-ghosts",
+    "issue": "เว็บฝึกพิมพ์ไทยทุกอันน่าเบื่อจนหลับ",
+    "solves": "ผีไทย 5 ชนิดลอยเข้าหาศาล — พิมพ์คำไทยให้จบก่อนถึงตัว, matcher ระดับ code-point รองรับสระ/วรรณยุกต์จริง, คำ 470+ คำ 3 ระดับ, บอส แม่นาค",
+    "medium": "web",
+    "tags": [
+      "play",
+      "game",
+      "typing",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/typing-ghosts/",
+    "repo": "https://github.com/peerapongsm/typing-ghosts",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Thai keystroke matcher TDD (NFC code-point)",
+        "done": true
+      },
+      {
+        "title": "Targeting/wave/score systems",
+        "done": true
+      },
+      {
+        "title": "5 original ghost SVGs + arena UI",
+        "done": true
+      },
+      {
+        "title": "Temple-fair design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "ลายไทย Generator",
+    "slug": "lai-thai-generator",
+    "issue": "ลายไทย (กนก ประจำยาม) เป็นศิลปะ parametric โดยธรรมชาติ แต่ไม่มีใครทำเวอร์ชัน generative",
+    "solves": "สร้างลายประจำยาม/กนก/ลายต่อเนื่องจากคณิตล้วน ปรับพารามิเตอร์สด, seed แชร์ได้ใน URL, ดาวน์โหลด SVG/PNG ใช้ฟรี CC0 — กนก geometry ผ่านการ iterate 3 รอบจน silhouette เป็นกนกจริง",
+    "medium": "web",
+    "tags": [
+      "art",
+      "design",
+      "generative",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/lai-thai-generator/",
+    "repo": "https://github.com/peerapongsm/lai-thai-generator",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Geometry TDD: rosette symmetry / band continuity / no self-intersection",
+        "done": true
+      },
+      {
+        "title": "3 modes + palettes + seed URL",
+        "done": true
+      },
+      {
+        "title": "SVG/PNG export",
+        "done": true
+      },
+      {
+        "title": "Temple-gallery design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "เสียงฝนเมืองไทย (Sound of Rain)",
+    "slug": "sound-of-rain",
+    "issue": "แอปเสียง ambient ฝรั่งมีเป็นร้อย แต่ไม่มีอันไหนเป็นฝนตกหลังคาสังกะสี",
+    "solves": "เสียงฝนสังเคราะห์สดด้วย Web Audio ทั้งหมด (0 ไฟล์เสียง): หลังคาสังกะสี/กระเบื้อง/เต็นท์, ฟ้าร้องไกล, จิ้งหรีด, sleep timer — ฉากเงา skyline สังกะสี",
+    "medium": "web",
+    "tags": [
+      "art",
+      "sound",
+      "ambient",
+      "thai",
+      "webaudio"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/sound-of-rain/",
+    "repo": "https://github.com/peerapongsm/sound-of-rain",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Synthesis: noise bed + droplet resonators + thunder + crickets",
+        "done": true
+      },
+      {
+        "title": "TDD: droplet scheduler / params / fade",
+        "done": true
+      },
+      {
+        "title": "Single-screen calm UI",
+        "done": true
+      },
+      {
+        "title": "Monsoon-dusk design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "ชีวิตเป็นสัปดาห์ (Life in Weeks)",
+    "slug": "life-in-weeks",
+    "issue": "เราไม่เคยเห็นชีวิตทั้งชีวิตในภาพเดียว",
+    "solves": "grid 1 ช่อง = 1 สัปดาห์ทั้งชีวิต (อายุคาดเฉลี่ยไทย WHO 2020) + ช่วงวัยไทย + milestone เอง + ตัวเลขสะเทือนใจ + export โปสเตอร์ PNG — ทุกอย่าง on-device",
+    "medium": "web",
+    "tags": [
+      "art",
+      "existential",
+      "poster",
+      "data"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/life-in-weeks/",
+    "repo": "https://github.com/peerapongsm/life-in-weeks",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "TDD: weeks math (leap-safe) / milestones / parent math",
+        "done": true
+      },
+      {
+        "title": "Grid + era bands + custom milestones",
+        "done": true
+      },
+      {
+        "title": "Poster PNG export + print",
+        "done": true
+      },
+      {
+        "title": "Swiss-poster design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "CSS ตลาดสด",
+    "slug": "css-talad",
+    "issue": "งานคราฟต์ล้วน: ตลาดสดไทยทั้งฉากด้วย CSS/SVG",
+    "solves": "ฉากตลาดสด 6 แผง (ผัก ผลไม้ หมู ปลา มาลัย กับข้าว) + แมว + พื้นเปียก วาดด้วย CSS/SVG ล้วน 0 รูปภาพ, โหมดดูโค้ดจิ้มดู CSS จริงทุกชิ้น, สลับเช้า/ค่ำ",
+    "medium": "web",
+    "tags": [
+      "art",
+      "css",
+      "craft",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/css-talad/",
+    "repo": "https://github.com/peerapongsm/css-talad",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "31-element scene registry TDD",
+        "done": true
+      },
+      {
+        "title": "6 stalls + interactions + code-view popup",
+        "done": true
+      },
+      {
+        "title": "Day/dusk + dense composition rework",
+        "done": true
+      },
+      {
+        "title": "Diorama chrome polish + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "ฟอนต์ลายมือคุณ (Handwriting Font)",
+    "slug": "handwriting-font",
+    "issue": "อยากได้ฟอนต์ลายมือตัวเองแต่บริการทำฟอนต์แพงและยุ่งยาก",
+    "solves": "วาดตัวอักษรบนจอ → ได้ไฟล์ .ttf จริง ทำงานใน browser 100% — TTF encoder เขียนเองทั้งตัว (round-trip tested + ผ่าน Chromium OTS), ไทย+ละติน 150+ glyph, preview สดด้วยฟอนต์ตัวเอง",
+    "medium": "web",
+    "tags": [
+      "art",
+      "font",
+      "thai",
+      "tool"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/handwriting-font/",
+    "repo": "https://github.com/peerapongsm/handwriting-font",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Hand-rolled TTF encoder TDD (parser round-trip, checksums, OS/2)",
+        "done": true
+      },
+      {
+        "title": "Stroke→outline math + drawing canvas",
+        "done": true
+      },
+      {
+        "title": "Live FontFace preview (browser-proven)",
+        "done": true
+      },
+      {
+        "title": "Stationery design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "หนึ่งคืนที่หอพัก (Interactive Fiction)",
+    "slug": "if-horpak",
+    "issue": "เรื่องผีไทย + นิยายเลือกทางเดิน เป็นคู่ที่แทบไม่มีใครทำ",
+    "solves": "นิยายสยองเลือกทางเดิน 37 nodes 5 endings (มี secret ending) + ระบบสติ 3 เทียน — กราฟเรื่องทั้งหมด validate เป็น test, จบใน 10-20 นาที เล่นซ้ำได้",
+    "medium": "web",
+    "tags": [
+      "story",
+      "fiction",
+      "horror",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/if-horpak/",
+    "repo": "https://github.com/peerapongsm/if-horpak",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Engine + story-graph validator TDD",
+        "done": true
+      },
+      {
+        "title": "37-node story, 5 endings (simulated playthroughs)",
+        "done": true
+      },
+      {
+        "title": "Typewriter UI + sanity candles + autosave",
+        "done": true
+      },
+      {
+        "title": "Candle-lit design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "เพลงจากเส้นทางของคุณ (Commute Music)",
+    "slug": "commute-music",
+    "issue": "ไร้ประโยชน์โดยสิ้นเชิง — และนั่นแหละคือประเด็น",
+    "solves": "เลือกสายรถไฟฟ้า+สถานีต้น-ปลาย → เส้นทางกลายเป็นเมโลดี้ (สถานี=โน้ต, interchange=คอร์ด, 4 timbre สังเคราะห์) — 4 สายหลัก BTS/MRT/ARL, แชร์เพลงผ่าน URL",
+    "medium": "web",
+    "tags": [
+      "art",
+      "music",
+      "toy",
+      "bangkok"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/commute-music/",
+    "repo": "https://github.com/peerapongsm/commute-music",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "TDD: deterministic melody / scale / URL encode",
+        "done": true
+      },
+      {
+        "title": "4 transit lines schematic (verified order only)",
+        "done": true
+      },
+      {
+        "title": "Web Audio synth + animated diagram",
+        "done": true
+      },
+      {
+        "title": "Transit-pop design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Whistle to Search",
+    "slug": "whistle-search",
+    "issue": "UI ด้วยเสียงผิวปาก — เพราะทำได้",
+    "solves": "ผิวปากทำนอง → เว็บทายเพลง (pitch detection + Parsons code เขียนเอง, 12 เพลง public domain, integration test 12/12) + โหมด theremin — ประมวลผลในเครื่องล้วน ไม่อัดไม่ส่ง",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "audio",
+      "dsp",
+      "weird-input"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/whistle-search/",
+    "repo": "https://github.com/peerapongsm/whistle-search",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Autocorrelation pitch detector TDD (octave-error corrected)",
+        "done": true
+      },
+      {
+        "title": "Contour + edit-distance matcher (12/12 self-ID)",
+        "done": true
+      },
+      {
+        "title": "Mic pipeline + live trace + theremin",
+        "done": true
+      },
+      {
+        "title": "Oscilloscope design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "แดดบอกเวลา (Shadow Clock)",
+    "slug": "shadow-clock",
+    "issue": "นาฬิกาแดดคือเทคโนโลยีพันปี — มือถือคุณคือหน้าปัดใหม่",
+    "solves": "นาฬิกาแดด virtual ตามพิกัดจริง (NOAA solar math ±2 นาที cross-checked) + ฟ้าเปลี่ยนสีตามเวลา + generate แผ่นนาฬิกาแดดกระดาษพิมพ์ได้เฉพาะละติจูดคุณ พับใช้ได้จริง",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "science",
+      "sun",
+      "print"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/shadow-clock/",
+    "repo": "https://github.com/peerapongsm/shadow-clock",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "NOAA solar math TDD (BKK fixtures cross-verified)",
+        "done": true
+      },
+      {
+        "title": "Sundial hour-line math + live dial",
+        "done": true
+      },
+      {
+        "title": "Printable A4 latitude-specific sheet",
+        "done": true
+      },
+      {
+        "title": "Terracotta design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Plant Cam Timelapse",
+    "slug": "plant-timelapse",
+    "issue": "ถ่ายรูปต้นไม้ทุกวันแต่รูปเอียงไปคนละทาง ทำ timelapse ไม่ได้สักที",
+    "solves": "โหลดรูปทั้งชุด จิ้ม 2 จุดอ้างอิง → จัดแนวด้วย similarity transform (คณิตปิดรูป) → export วิดีโอ WebM — ทำใน browser ทั้งหมด รูปไม่ออกจากเครื่อง",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "photo",
+      "plant",
+      "tool"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/plant-timelapse/",
+    "repo": "https://github.com/peerapongsm/plant-timelapse",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Closed-form 2-point similarity transform TDD",
+        "done": true
+      },
+      {
+        "title": "Inscribed-rect crop (no black corners)",
+        "done": true
+      },
+      {
+        "title": "Align UI (onion skin) + WebM/PNG export",
+        "done": true
+      },
+      {
+        "title": "Field-journal design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "เว็บที่ช้าที่สุดในประเทศไทย (Slowest Website)",
+    "slug": "slowest-website",
+    "issue": "อินเทอร์เน็ตเร็วขึ้นทุกปี — เว็บนี้ขอสวนกระแส",
+    "solves": "performance art: บังคับรอ 3 นาทีผ่าน 7 ฉาก (dial-up, progress bar โกหก, โฆษณาปิดไม่ได้, 99% ค้าง) จบด้วย certificate ความอดทน — ไฟล์จริงเล็กจิ๋ว /method สารภาพหมด",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "art",
+      "absurd",
+      "comedy"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/slowest-website/",
+    "repo": "https://github.com/peerapongsm/slowest-website",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Scene state machine TDD (timings/skip/cheat)",
+        "done": true
+      },
+      {
+        "title": "7 comedy scenes + certificate PNG",
+        "done": true
+      },
+      {
+        "title": "Reload detection + easter egg",
+        "done": true
+      },
+      {
+        "title": "Beige-box design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "หน้าเว็บปี 2004",
+    "slug": "web-2004",
+    "issue": "คนอายุ 30+ คิดถึงยุค hi5 เคอร์เซอร์วิบวับ เพลง MIDI",
+    "solves": "โฮมเพจน้องเมย์ ม.4 (สมมติ) ครบสูตร 2004: sparkle cursor, marquee, hit counter, guestbook, chiptune แต่งเอง — พร้อมโหมดพิพิธภัณฑ์ 16 annotations อธิบายว่าแต่ละอย่างคืออะไรและตายเพราะอะไร",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "nostalgia",
+      "thai",
+      "museum"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/web-2004/",
+    "repo": "https://github.com/peerapongsm/web-2004",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "16 museum annotations TDD",
+        "done": true
+      },
+      {
+        "title": "Full 2004 artifact set (all hand-made)",
+        "done": true
+      },
+      {
+        "title": "Own chiptune loop (Web Audio)",
+        "done": true
+      },
+      {
+        "title": "Museum placard polish + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Two-Person Pixel Canvas",
+    "slug": "pixel-canvas",
+    "issue": "r/place สนุกเพราะคนแปลกหน้าสร้างอะไรด้วยกัน — แต่ scale เล็กๆ ก็มีเสน่ห์",
+    "solves": "canvas 64×64 วาดกับเพื่อน 1 คนสดๆ ผ่าน WebRTC ตรง ไม่มี server เลย (โค้ดชวน copy-paste), LWW grid + validate กัน timestamp poisoning, export PNG",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "multiplayer",
+      "pixel",
+      "webrtc"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/pixel-canvas/",
+    "repo": "https://github.com/peerapongsm/pixel-canvas",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "LWW grid + protocol TDD (70 tests incl security hardening)",
+        "done": true
+      },
+      {
+        "title": "Manual-signal WebRTC (no backend)",
+        "done": true
+      },
+      {
+        "title": "Draw/zoom/heat UI + PNG export",
+        "done": true
+      },
+      {
+        "title": "Workshop design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "สารภาพกับความว่างเปล่า (Confession to No One)",
+    "slug": "confession",
+    "issue": "บางเรื่องแค่อยากพูดออกมา ไม่ได้อยากให้ใครเก็บไว้",
+    "solves": "พิมพ์ → เลือกปล่อย (เผา/ลอยกระทง/ลม) → หายไปจริง: zero-storage บังคับด้วย test (ไม่มี network/localStorage แตะข้อความเลย) + crisis card 1323",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "privacy",
+      "calm",
+      "mental-health"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/confession/",
+    "repo": "https://github.com/peerapongsm/confession",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Zero-storage invariant as source-scan test",
+        "done": true
+      },
+      {
+        "title": "Ritual state machine + glyph-particle release",
+        "done": true
+      },
+      {
+        "title": "Crisis floor 1323 (local-only)",
+        "done": true
+      },
+      {
+        "title": "3am-courtyard design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "QR Code ทำงานยังไง (Explorable)",
+    "slug": "qr-explorable",
+    "issue": "ทุกคนสแกน QR วันละสิบครั้งแต่ไม่มีใครรู้ว่าข้างในคืออะไร",
+    "solves": "explorable 6 ตอน: พิมพ์ข้อความเอง → เห็น QR ประกอบทีละชั้น (encoder เขียนเอง GF(256)+Reed-Solomon ตรง reference vectors) + ระบายทับแล้วยังสแกนได้ + แกะโครง PromptPay",
+    "medium": "web",
+    "tags": [
+      "learn",
+      "explorable",
+      "qr",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/qr-explorable/",
+    "repo": "https://github.com/peerapongsm/qr-explorable",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "From-scratch QR encoder TDD (129 tests, round-trip decoder)",
+        "done": true
+      },
+      {
+        "title": "6 interactive sections + damage-paint demo",
+        "done": true
+      },
+      {
+        "title": "PromptPay TLV breakdown + safety warning",
+        "done": true
+      },
+      {
+        "title": "Riso-zine design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "สอนคอมให้เดา (Teach the Machine)",
+    "slug": "teach-machine",
+    "issue": "AI เป็นกล่องดำสำหรับคนทั่วไป — จนกว่าจะได้สอนมันเองกับมือ",
+    "solves": "วาดตัวอย่างสอน 2-3 หมวด → เครื่องเดาของใหม่ + โชว์ว่าทำไม (เพื่อนบ้านใกล้สุด 3 ตัวอย่างจริง) — KNN เขียนเอง โปร่งใสทั้งระบบ, บทเรียน bias/data แทรก",
+    "medium": "web",
+    "tags": [
+      "learn",
+      "ai",
+      "interactive",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/teach-machine/",
+    "repo": "https://github.com/peerapongsm/teach-machine",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "KNN + translation-invariant downsample TDD",
+        "done": true
+      },
+      {
+        "title": "Teach/guess/why flow + evidence board",
+        "done": true
+      },
+      {
+        "title": "4 lesson cards (features/distance/data/bias)",
+        "done": true
+      },
+      {
+        "title": "Science-fair design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "0.1 + 0.2 ≠ 0.3 (Floating Point Horror)",
+    "slug": "float-horror",
+    "issue": "บั๊กคลาสสิกที่ dev ทุกคนเจอ แต่คำอธิบายภาษาไทยดีๆ แทบไม่มี",
+    "solves": "explorable 5 ตอน: เครื่องคิดเลขพัง → ผ่าชิ้น 64 บิต (exact decimal เต็มทุกหลักด้วย BigInt) → เศษส่วนฐานสอง → อุบัติเหตุจริง (Patriot/Vancouver/Ariane cited) → วิธีรอด (เงินคิดเป็นสตางค์ int)",
+    "medium": "web",
+    "tags": [
+      "learn",
+      "cs",
+      "interactive",
+      "thai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/float-horror/",
+    "repo": "https://github.com/peerapongsm/float-horror",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "IEEE754 bits + exact BigInt expansion TDD",
+        "done": true
+      },
+      {
+        "title": "5 scrollytelling sections + cheat sheet",
+        "done": true
+      },
+      {
+        "title": "Real incidents with primary sources",
+        "done": true
+      },
+      {
+        "title": "Dev-horror design pass + deploy",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Desk Rain",
+    "slug": "desk-rain",
+    "issue": "แอปพยากรณ์บอกทุกอย่างยกเว้นสิ่งเดียวที่อยากรู้: อีกเดี๋ยวฝนจะตกที่บ้านไหม",
+    "solves": "จอเดียวตอบชัด: ฝนกำลังตก / จะถึงใน ~X นาที / แห้งอีก 2 ชม. (Open-Meteo nowcast 15 นาที) + timeline กระจกฝ้า + desk mode auto-refresh — honesty: model ไม่ใช่เรดาร์",
+    "medium": "web",
+    "tags": [
+      "toy",
+      "weather",
+      "ambient",
+      "data"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://peerapongsm.github.io/desk-rain/",
+    "repo": "https://github.com/peerapongsm/desk-rain",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Nowcast classifier + ribbon TDD (live payload verified)",
+        "done": true
+      },
+      {
+        "title": "Geolocation + 77-province fallback",
+        "done": true
+      },
+      {
+        "title": "Rain-glass ambient UI + desk mode",
+        "done": true
+      },
+      {
+        "title": "Rain-glass design pass + deploy",
+        "done": true
+      }
+    ]
   }
 ]
