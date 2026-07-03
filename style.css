@@ -281,3 +281,10 @@ footer {
   color: var(--text);
   letter-spacing: -0.01em;
 }
+a.sig-name {
+  text-decoration: underline dotted;
+  text-underline-offset: 4px;
+}
+a.sig-name:hover {
+  color: var(--accent);
+}
