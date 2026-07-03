@@ -1605,5 +1605,43 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 43,
+    "name": "เติมบุญ",
+    "slug": "term-boon",
+    "issue": "เศรษฐกิจบุญ — ทำบุญแบบเติมเงินมือถือ หวังผลตอบแทนเป็นตัวเลข ไม่มีใครเสียดสีให้เล่นได้จริง",
+    "solves": "Thai idle clicker «บุญWallet»: คลิกทำบุญ 5 ระดับ (หยอดตู้→สแกน QR) · 11 กิจการบุญ · ~44 อัปเกรด · เวียนว่ายตายเกิดสะสมบารมี · จบเกมด้วยนิพพาน — เลิกเล่นคือทางเดียวที่ชนะ · หน่วยบาลี โกฏิ→อสงไขย (sourced) · pacing คุมด้วย greedy-bot sim ใน CI · pixel art ทำมือ 16 ชิ้น",
+    "medium": "web",
+    "tags": [
+      "game",
+      "satire",
+      "idle",
+      "toy"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://term-boon.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/term-boon",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "spec + grill (6Q) + plan 15 tasks",
+        "done": true
+      },
+      {
+        "title": "engine/units/save/audio TDD + pacing sim gates (50 tests)",
+        "done": true
+      },
+      {
+        "title": "บุญWallet UI + pixel sprites + design pass ธนบัตรแห่งบุญ",
+        "done": true
+      },
+      {
+        "title": "deploy Pages + term-boon.peerapongsm.dev + armory",
+        "done": true
+      }
+    ]
   }
 ]
