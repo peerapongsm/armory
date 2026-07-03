@@ -32,6 +32,7 @@ function badge(p) {
   if (p.status === "planned") return { cls: "planned", label: "planned" };
   if (p.status === "building") return { cls: "building", label: "building" };
   if (p.track === "desktop") return { cls: "download", label: "download" };
+  if (p.track === "mobile" && !p.url && p.download) return { cls: "download", label: "download" };
   if (p.track === "demo") return { cls: "demo", label: "demo" };
   return { cls: "live", label: "live" };
 }
