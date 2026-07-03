@@ -1379,7 +1379,7 @@
     "name": "Two-Person Pixel Canvas",
     "slug": "pixel-canvas",
     "issue": "r/place สนุกเพราะคนแปลกหน้าสร้างอะไรด้วยกัน — แต่ scale เล็กๆ ก็มีเสน่ห์",
-    "solves": "canvas 64×64 วาดกับเพื่อน 1 คนสดๆ ผ่าน WebRTC ตรง ไม่มี server เลย (โค้ดชวน copy-paste), LWW grid + validate กัน timestamp poisoning, export PNG",
+    "solves": "canvas 64×64 วาดกับเพื่อน 1 คนสดๆ ผ่าน WebRTC ตรง ไม่มี server เลย (ลิงก์ชวน/QR สแกนเข้าห้องอัตโนมัติ), 64 สี + ยางลบ + undo, LWW grid + validate กัน timestamp poisoning, export PNG",
     "medium": "web",
     "tags": [
       "toy",
@@ -1408,6 +1408,10 @@
       },
       {
         "title": "Workshop design pass + deploy",
+        "done": true
+      },
+      {
+        "title": "v2: eraser + undo + short invite links/QR + 64 colors",
         "done": true
       }
     ]
