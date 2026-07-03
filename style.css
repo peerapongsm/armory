@@ -188,6 +188,8 @@ h1 {
 .status.building::before { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
 .status.planned { color: var(--muted); }
 .status.planned::before { background: var(--muted); }
+.status.funding { color: #4dd0e1; }
+.status.funding::before { background: #4dd0e1; box-shadow: 0 0 8px #4dd0e1; }
 
 .card h2 { font-size: 21px; font-weight: 600; letter-spacing: -0.01em; }
 .card .issue, .card .solves {

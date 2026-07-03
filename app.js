@@ -28,6 +28,7 @@ function paintProgress() {
 // badge: {cls, label} derived from status + track
 function badge(p) {
   if (p.graduated) return { cls: "graduated", label: "graduated" };
+  if (p.status === "funding") return { cls: "funding", label: "wait for funding" };
   if (p.status === "planned") return { cls: "planned", label: "planned" };
   if (p.status === "building") return { cls: "building", label: "building" };
   if (p.track === "desktop") return { cls: "download", label: "download" };
