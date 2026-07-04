@@ -1621,7 +1621,7 @@
     "name": "เติมบุญ",
     "slug": "term-boon",
     "issue": "เศรษฐกิจบุญ — ทำบุญแบบเติมเงินมือถือ หวังผลตอบแทนเป็นตัวเลข ไม่มีใครเสียดสีให้เล่นได้จริง",
-    "solves": "Thai idle clicker «บุญWallet»: คลิกทำบุญ 5 ระดับ (หยอดตู้→สแกน QR) · 11 กิจการบุญ · ~44 อัปเกรด · เวียนว่ายตายเกิดสะสมบารมี · จบเกมด้วยนิพพาน — เลิกเล่นคือทางเดียวที่ชนะ · หน่วยบาลี โกฏิ→อสงไขย (sourced) · pacing คุมด้วย greedy-bot sim ใน CI · pixel art ทำมือ 16 ชิ้น",
+    "solves": "Thai idle clicker «บุญWallet»: คลิกทำบุญ 5 ระดับ (หยอดตู้→สแกน QR) · 11 กิจการบุญ · ~44 อัปเกรด · เวียนว่ายตายเกิดสะสมบารมี · จบเกมด้วยนิพพาน — เลิกเล่นคือทางเดียวที่ชนะ · หน่วยบาลี โกฏิ→อสงไขย (sourced) · pacing คุมด้วย greedy-bot sim ใน CI · pixel art ทำมือ 16 ชิ้น · อัปเดตใหญ่ 2026-07: ระบบ «เครดิตบุญ» (share-based target + audit tax + เทวดา gate ปลดด้วย active click-burst) · สินเชื่อบุญ (BNPL parody) · โฆษณาบุญ diegetic (static + floating) + แท็บเครดิตบน navbar · producer เพิ่มเป็น 14 (NFT/IPO/เมตาเวิร์สวัด) · rebirth ladder 7 ชั้น billions-scale (เทพบุตร→อรหันต์) · endless mode «เวียนว่ายต่อ» · click-combo ศรัทธา · event UFO/เจ็ท (generic satire) · news ticker · 80 tests",
     "medium": "web",
     "tags": [
       "game",
@@ -1650,6 +1650,10 @@
       },
       {
         "title": "deploy Pages + term-boon.peerapongsm.dev + armory",
+        "done": true
+      },
+      {
+        "title": "อัปเดต balance/length/satire: เครดิตบุญ + สินเชื่อ + โฆษณาบุญ + ladder 7 ชั้น + endless",
         "done": true
       }
     ]
