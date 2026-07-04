@@ -18,7 +18,7 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Hub page, render, deploy on GitHub Pages",
+        "title": "Hub page render + deploy on GitHub Pages",
         "done": true
       },
       {
@@ -26,27 +26,11 @@
         "done": true
       },
       {
-        "title": "Live search across all projects",
+        "title": "Live search + status/track filters",
         "done": true
       },
       {
-        "title": "Status + track filter tabs",
-        "done": true
-      },
-      {
-        "title": "Per-project problem / solution / phase cards",
-        "done": true
-      },
-      {
-        "title": "Year-progress bar and counter",
-        "done": true
-      },
-      {
-        "title": "Custom apex domain peerapongsm.dev over HTTPS",
-        "done": true
-      },
-      {
-        "title": "Graduated-project promotion badges",
+        "title": "Custom apex domain over HTTPS",
         "done": true
       }
     ]
@@ -70,23 +54,35 @@
     "graduated": null,
     "phases": [
       {
-        "title": "promotion score + project resolver (TDD core)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Umami client + GitHub downloads + summary API",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "ranked dashboard UI",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "self-host Umami + shared tracking snippet",
+        "title": "Primary UI",
         "done": true
       },
       {
-        "title": "deploy + wire into Armory",
+        "title": "Data ingestion",
+        "done": true
+      },
+      {
+        "title": "Chart / viz layer",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
+        "done": true
+      },
+      {
+        "title": "Unit tests",
         "done": true
       }
     ]
@@ -113,19 +109,31 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Core flow + Gemini proxy + consent gate",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Crisis detection + 1323 safety floor",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "History + PWA + offline shell",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "ยายอารี persona + chat UI revamp",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Prompt design",
+        "done": true
+      },
+      {
+        "title": "Persona / response tuning",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
         "done": true
       }
     ]
@@ -151,19 +159,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Worry box: capture, lock outside window, review inside",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Window state machine + recurring .ics calendar reminder",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Didn't-happen % stat + on-device storage (export/clear)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Theme, crisis 1323 card, PWA + GitHub Pages deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Offline / service worker",
         "done": true
       }
     ]
@@ -189,19 +201,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Effective-APR + rank + crisis floor + solutions (TDD core)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Theme + consent gate + crisis components",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Debt form, ranked list, detail (APR hero + ทางออก)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "PWA + GitHub Pages deploy + Umami",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Financial model",
         "done": true
       }
     ]
@@ -225,19 +241,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "GPP rule model + core logic (TDD): gap report, auto-layout, layout checker",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "wizard + result view (gap report + suggested/reference layouts)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "drag-and-drop floor editor + printable readiness report",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "GitHub Pages deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
         "done": true
       }
     ]
@@ -263,19 +283,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "return + DCA + align math (TDD)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "ingest Yahoo + SEC NAV → baked data",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "builder + result UI (lump-sum + DCA modes)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "methodology + GitHub Pages deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Financial model",
+        "done": true
+      },
+      {
+        "title": "Number formatting + Thai locale",
         "done": true
       }
     ]
@@ -299,23 +327,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Data feasibility (OSM/Overpass + curation sources verified)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Core libs + service catalog (distance, classify, geo, 16 services)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Ingest real OSM offices + province PiP (1145 offices baked)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Persona-first UI + lazy locator + PWA",
+        "title": "Primary UI",
         "done": true
       },
       {
-        "title": "Deploy GitHub Pages + Umami + armory",
+        "title": "Geolocation + markers",
+        "done": true
+      },
+      {
+        "title": "Data source integration",
         "done": true
       }
     ]
@@ -342,19 +374,31 @@
     "graduated": null,
     "phases": [
       {
-        "title": "field-crop fertilizer engine (soil level → NPK → bags)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "fruit fertilizer engine (tree age → stage plan)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "planting/pest calendar by region",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Tauri desktop packaging + GitHub Release",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Packaging / installer",
+        "done": true
+      },
+      {
+        "title": "Offline data store",
+        "done": true
+      },
+      {
+        "title": "Offline-first storage",
         "done": true
       }
     ]
@@ -380,19 +424,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Cashflow engine + 3-state snapshot (runway/break-even/profit) + flags (TDD)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "10 shop-type configs + universal/type danger flags + price what-if lever",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Type picker + one-question-per-screen wizard + result view",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "History + SVG profit trend + JSON backup + PWA + GitHub Pages deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Financial model",
         "done": true
       }
     ]
@@ -419,15 +467,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Orders + customer management (local SQLite)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Reports + Excel export",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Electron packaging + auto-update releases",
+        "title": "Core logic",
+        "done": true
+      },
+      {
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Packaging / installer",
+        "done": true
+      },
+      {
+        "title": "Offline data store",
         "done": true
       }
     ]
@@ -453,15 +513,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Multi-view project board (Board/Gantt/List/Matrix/Time)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Calendar, dashboard, and file attachments",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Electron packaging + release",
+        "title": "Core logic",
+        "done": true
+      },
+      {
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Packaging / installer",
+        "done": true
+      },
+      {
+        "title": "Offline data store",
         "done": true
       }
     ]
@@ -487,15 +559,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Guided form wizard (field-by-field)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Print-ready PDF generation",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Accounts + deploy on Vercel",
+        "title": "Core logic",
+        "done": true
+      },
+      {
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
         "done": true
       }
     ]
@@ -524,23 +604,35 @@
     "graduated": null,
     "phases": [
       {
-        "title": "streak / tier / vitality / relapse engine (offline, TDD)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "fake on-device leaderboard (seeded-past, sawtooth, ranked window)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "local notifications (rolling reminder buffer)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Ember dark UI + tier-colored Lottie fire + Boon Thai font",
+        "title": "Primary UI",
         "done": true
       },
       {
-        "title": "Android release APK on GitHub Releases",
+        "title": "Native build config",
+        "done": true
+      },
+      {
+        "title": "On-device storage",
+        "done": true
+      },
+      {
+        "title": "Offline-first storage",
+        "done": true
+      },
+      {
+        "title": "Sync-on-reconnect",
         "done": true
       }
     ]
@@ -570,31 +662,43 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Foundation: Google/Apple SSO, clubs/membership, RLS + pgTAP",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Events + nearby discovery (PostGIS, privacy-preserving)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Live GPS (ephemeral broadcast) + recorded tracks + stats rollup",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Chat (DM/club/event) + block/report/word-filter safety",
+        "title": "Primary UI",
         "done": true
       },
       {
-        "title": "Feed: activity/text posts, likes, comments, private media",
+        "title": "Interaction + state",
         "done": true
       },
       {
-        "title": "Push notifications + event reminders + store checklist",
+        "title": "Unit tests",
         "done": true
       },
       {
-        "title": "Trail Green design system, dark mode, 5-tab nav",
+        "title": "Edge-case handling",
+        "done": true
+      },
+      {
+        "title": "Responsive mobile layout",
+        "done": true
+      },
+      {
+        "title": "Visual + theme polish",
+        "done": true
+      },
+      {
+        "title": "Copy / prose pass",
         "done": true
       }
     ]
@@ -622,15 +726,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Compile official scam-pattern taxonomy + AOC/police loss statistics for on-page citations",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "AI scammer persona chat flow with tap-to-flag detection scoring (Gemini)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Share card + deploy live on Vercel with real-AI verification",
+        "title": "Core logic",
+        "done": true
+      },
+      {
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -658,15 +766,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Pull BOT household debt series + DOPA population, derive per-second growth rate",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Single-page ticking counter + per-capita share + share card",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Link quietly into คลายหนี้ as the action step",
+        "title": "Core logic",
+        "done": true
+      },
+      {
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -694,19 +806,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Draw archive ingest 2533-2569 (vicha-w + myhora, hard verification gate 464/464)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Replay engine TDD: era table / check / simulate / DCA (61 tests)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Fast-forward time machine UI + verdict + share card",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Deploy GitHub Pages + monthly draw refresh cron",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Share card assets",
+        "done": true
+      },
+      {
+        "title": "SEO metadata",
         "done": true
       }
     ]
@@ -735,20 +855,40 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Design spec + grill (RPC-only anon browse, 5km pin radius, honest counting)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Client pitch: mockups + 5-year cost breakdown, live on Pages",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Build: Expo RN + Supabase PostGIS (awaiting funding)",
-        "done": false
+        "title": "Core logic",
+        "done": true
       },
       {
-        "title": "Launch: App Store + Play Store",
-        "done": false
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Geolocation + markers",
+        "done": true
+      },
+      {
+        "title": "Data source integration",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
+        "done": true
+      },
+      {
+        "title": "Unit tests",
+        "done": true
+      },
+      {
+        "title": "Edge-case handling",
+        "done": true
       }
     ]
   },
@@ -774,19 +914,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "TDD game state machines: tuktuk / mooping / crossing (45 tests)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Single-input UI + canvas renderers + highscore",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Pixel-arcade design pass: embedded sprite system + CRT chrome (77 tests)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Deploy GitHub Pages",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -813,19 +953,35 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Engine TDD: move gen / check / counting rules (perft verified)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Minimax bot 3 levels in Web Worker",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Board UI + /method",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Lacquer-gold design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Difficulty tuning",
+        "done": true
+      },
+      {
+        "title": "Save / progress system",
+        "done": true
+      },
+      {
+        "title": "Win/lose states",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
         "done": true
       }
     ]
@@ -852,19 +1008,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Data: 77 provinces (outline/adjacency/motto honest-null)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "TDD: seed cycle / haversine / bearing / stats",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Puzzle UI + share + practice mode",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Expedition-map design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -890,19 +1046,31 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Deterministic sim TDD (queue/light/rage/levels)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Canvas renderer + one-button controls",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "5 levels + share",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Signage-industrial design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Simulation model",
+        "done": true
+      },
+      {
+        "title": "Parameter tuning",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
         "done": true
       }
     ]
@@ -928,19 +1096,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Thai keystroke matcher TDD (NFC code-point)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Targeting/wave/score systems",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "5 original ghost SVGs + arena UI",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Temple-fair design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -966,19 +1134,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Geometry TDD: rosette symmetry / band continuity / no self-intersection",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "3 modes + palettes + seed URL",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "SVG/PNG export",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Temple-gallery design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
+        "done": true
+      },
+      {
+        "title": "Unit tests",
         "done": true
       }
     ]
@@ -1005,19 +1181,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Synthesis: noise bed + droplet resonators + thunder + crickets",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "TDD: droplet scheduler / params / fade",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Single-screen calm UI",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Monsoon-dusk design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Web Audio synth engine",
+        "done": true
+      },
+      {
+        "title": "Sound toggle + autoplay handling",
         "done": true
       }
     ]
@@ -1043,23 +1227,47 @@
     "graduated": null,
     "phases": [
       {
-        "title": "TDD: weeks math (leap-safe) / milestones / parent math",
+        "title": "Life-in-weeks grid render",
         "done": true
       },
       {
-        "title": "Grid + era bands + custom milestones",
+        "title": "WHO life-expectancy data bake",
         "done": true
       },
       {
-        "title": "Poster PNG export + print",
+        "title": "Country + year picker (39 countries)",
         "done": true
       },
       {
-        "title": "Swiss-poster design pass + deploy",
+        "title": "Self + parent LE overrides",
         "done": true
       },
       {
-        "title": "user-configurable inputs: 39-country WHO data (country/year) + life-expectancy override (self+parent) + visits-per-year",
+        "title": "Visits-per-year -> remaining visits",
+        "done": true
+      },
+      {
+        "title": "Settings storage migration",
+        "done": true
+      },
+      {
+        "title": "Graceful country/year fallback",
+        "done": true
+      },
+      {
+        "title": "JSX whitespace fix (Latin/Thai)",
+        "done": true
+      },
+      {
+        "title": "69 unit tests",
+        "done": true
+      },
+      {
+        "title": "Deploy + life-in-weeks.peerapongsm.dev",
+        "done": true
+      },
+      {
+        "title": "Course social assets",
         "done": true
       }
     ]
@@ -1085,19 +1293,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "31-element scene registry TDD",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "6 stalls + interactions + code-view popup",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Day/dusk + dense composition rework",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Diorama chrome polish + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1123,19 +1331,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Hand-rolled TTF encoder TDD (parser round-trip, checksums, OS/2)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Stroke→outline math + drawing canvas",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Live FontFace preview (browser-proven)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Stationery design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Glyph capture",
+        "done": true
+      },
+      {
+        "title": "Font export (ttf/woff)",
         "done": true
       }
     ]
@@ -1165,31 +1381,67 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Engine + story-graph validator TDD",
+        "title": "Unify meter engine (candles/hearts/battery)",
         "done": true
       },
       {
-        "title": "37-node story, 5 endings (simulated playthroughs)",
+        "title": "Multi-meter engine (additive seam)",
         "done": true
       },
       {
-        "title": "Typewriter UI + sanity candles + autosave",
+        "title": "Story: หอพัก (horror)",
         "done": true
       },
       {
-        "title": "Candle-lit design pass + deploy",
+        "title": "Story: รถเมล์สายสุดท้าย (horror)",
         "done": true
       },
       {
-        "title": "Text-speed setting + เรื่องที่ 2 «รถเมล์สายสุดท้าย» + ambient audio",
+        "title": "Story: แฟนปลอม 7 วัน (romance)",
         "done": true
       },
       {
-        "title": "รวมเป็น collection «if — ถ้า»: +2 เรื่อง (รอมคอม/เสียดสี), meter ต่อแนว, theme+routing ต่อ route, ย้ายโดเมน if.peerapongsm.dev",
+        "title": "Story: วันแรกที่บริษัทจำกัด (satire)",
         "done": true
       },
       {
-        "title": "เรื่องที่ 5 «ตำรับรักกรุงเก่า» (ย้อนเวลา) + multi-meter engine (2 มิเตอร์) + theme/ambient period",
+        "title": "Story: ตำรับรักกรุงเก่า (time-travel)",
+        "done": true
+      },
+      {
+        "title": "Chapter progress bars",
+        "done": true
+      },
+      {
+        "title": "Per-route genre theming",
+        "done": true
+      },
+      {
+        "title": "Neutral gallery landing",
+        "done": true
+      },
+      {
+        "title": "Text-speed settings (4 levels)",
+        "done": true
+      },
+      {
+        "title": "Ambient audio per genre",
+        "done": true
+      },
+      {
+        "title": "Endings = flags model",
+        "done": true
+      },
+      {
+        "title": "thai-prose-style pass",
+        "done": true
+      },
+      {
+        "title": "50 unit tests",
+        "done": true
+      },
+      {
+        "title": "Rename repo if-horpak -> if",
         "done": true
       }
     ]
@@ -1215,19 +1467,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "TDD: deterministic melody / scale / URL encode",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "4 transit lines schematic (verified order only)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Web Audio synth + animated diagram",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Transit-pop design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Web Audio synth engine",
+        "done": true
+      },
+      {
+        "title": "Generative mapping",
         "done": true
       }
     ]
@@ -1253,19 +1513,35 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Autocorrelation pitch detector TDD (octave-error corrected)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Contour + edit-distance matcher (12/12 self-ID)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Mic pipeline + live trace + theremin",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Oscilloscope design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
+        "done": true
+      },
+      {
+        "title": "Unit tests",
+        "done": true
+      },
+      {
+        "title": "Edge-case handling",
+        "done": true
+      },
+      {
+        "title": "Responsive mobile layout",
         "done": true
       }
     ]
@@ -1291,19 +1567,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "NOAA solar math TDD (BKK fixtures cross-verified)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Sundial hour-line math + live dial",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Printable A4 latitude-specific sheet",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Terracotta design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1329,19 +1605,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Closed-form 2-point similarity transform TDD",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Inscribed-rect crop (no black corners)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Align UI (onion skin) + WebM/PNG export",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Field-journal design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1367,19 +1643,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Scene state machine TDD (timings/skip/cheat)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "7 comedy scenes + certificate PNG",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Reload detection + easter egg",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Beige-box design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1405,19 +1681,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "16 museum annotations TDD",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Full 2004 artifact set (all hand-made)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Own chiptune loop (Web Audio)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Museum placard polish + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1443,23 +1719,39 @@
     "graduated": null,
     "phases": [
       {
-        "title": "LWW grid + protocol TDD (70 tests incl security hardening)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Manual-signal WebRTC (no backend)",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Draw/zoom/heat UI + PNG export",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Workshop design pass + deploy",
+        "title": "Primary UI",
         "done": true
       },
       {
-        "title": "v2: eraser + undo + short invite links/QR + 64 colors",
+        "title": "Pixel canvas + palette",
+        "done": true
+      },
+      {
+        "title": "Draw / erase / undo tools",
+        "done": true
+      },
+      {
+        "title": "Interaction + state",
+        "done": true
+      },
+      {
+        "title": "Unit tests",
+        "done": true
+      },
+      {
+        "title": "Edge-case handling",
         "done": true
       }
     ]
@@ -1485,19 +1777,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Zero-storage invariant as source-scan test",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Ritual state machine + glyph-particle release",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Crisis floor 1323 (local-only)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "3am-courtyard design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1523,19 +1815,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "From-scratch QR encoder TDD (129 tests, round-trip decoder)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "6 interactive sections + damage-paint demo",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "PromptPay TLV breakdown + safety warning",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Riso-zine design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1561,19 +1853,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "KNN + translation-invariant downsample TDD",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Teach/guess/why flow + evidence board",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "4 lesson cards (features/distance/data/bias)",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Science-fair design pass + deploy",
+        "title": "Primary UI",
+        "done": true
+      },
+      {
+        "title": "Explorable interactions",
+        "done": true
+      },
+      {
+        "title": "Step-by-step reveal",
         "done": true
       }
     ]
@@ -1599,19 +1899,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "IEEE754 bits + exact BigInt expansion TDD",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "5 scrollytelling sections + cheat sheet",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Real incidents with primary sources",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Dev-horror design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1637,19 +1937,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Nowcast classifier + ribbon TDD (live payload verified)",
+        "title": "Brainstorm + scope",
         "done": true
       },
       {
-        "title": "Geolocation + 77-province fallback",
+        "title": "Core data model",
         "done": true
       },
       {
-        "title": "Rain-glass ambient UI + desk mode",
+        "title": "Core logic",
         "done": true
       },
       {
-        "title": "Rain-glass design pass + deploy",
+        "title": "Primary UI",
         "done": true
       }
     ]
@@ -1675,23 +1975,91 @@
     "graduated": null,
     "phases": [
       {
-        "title": "spec + grill (6Q) + plan 15 tasks",
+        "title": "Idle-engine core loop + producers",
         "done": true
       },
       {
-        "title": "engine/units/save/audio TDD + pacing sim gates (50 tests)",
+        "title": "Prestige / barami rebirth ladder",
         "done": true
       },
       {
-        "title": "บุญWallet UI + pixel sprites + design pass ธนบัตรแห่งบุญ",
+        "title": "เครดิตบุญ merit-credit system",
         "done": true
       },
       {
-        "title": "deploy Pages + term-boon.peerapongsm.dev + armory",
+        "title": "Audit tax + เทวดา credit gate",
         "done": true
       },
       {
-        "title": "อัปเดต balance/length/satire: เครดิตบุญ + สินเชื่อ + โฆษณาบุญ + ladder 7 ชั้น + endless",
+        "title": "Click-combo ศรัทธา",
+        "done": true
+      },
+      {
+        "title": "สินเชื่อบุญ loan mechanic",
+        "done": true
+      },
+      {
+        "title": "โฆษณาบุญ diegetic ads",
+        "done": true
+      },
+      {
+        "title": "Producers 12-14 + hand-crafted sprites",
+        "done": true
+      },
+      {
+        "title": "Rebirth ladder rescaled to billions",
+        "done": true
+      },
+      {
+        "title": "News ticker + satire events",
+        "done": true
+      },
+      {
+        "title": "Save migration (v2)",
+        "done": true
+      },
+      {
+        "title": "Offline economy + tax",
+        "done": true
+      },
+      {
+        "title": "Pacing re-simulation",
+        "done": true
+      },
+      {
+        "title": "Credit navbar bureau UI",
+        "done": true
+      },
+      {
+        "title": "Endless mode + samsara counter",
+        "done": true
+      },
+      {
+        "title": "Hostile-input validation",
+        "done": true
+      },
+      {
+        "title": "80 unit tests",
+        "done": true
+      },
+      {
+        "title": "Balance pass: producer curve cliff fix",
+        "done": true
+      },
+      {
+        "title": "Opus final review: gate reachability fix",
+        "done": true
+      },
+      {
+        "title": "Deploy + armory bump",
+        "done": true
+      },
+      {
+        "title": "Domain glossary + CONTEXT",
+        "done": true
+      },
+      {
+        "title": "Satire guardrail pass",
         "done": true
       }
     ]
@@ -1716,23 +2084,115 @@
     "graduated": null,
     "phases": [
       {
-        "title": "spec (grilled 9Q + domain-modeling) + plan 23 tasks",
+        "title": "Scope Claude Architect exam guide v0.2",
         "done": true
       },
       {
-        "title": "foundation TDD: Next 15 static export + MDX registry + routing + sidebar/progress + full-text search (T1-9)",
+        "title": "Next 15 static-export + MDX pipeline",
         "done": true
       },
       {
-        "title": "8 interactive sims + 2 decision widgets, TDD pure logic (T10-18)",
+        "title": "Content codegen registry (split data/components)",
         "done": true
       },
       {
-        "title": "authoring 60 lessons / 5 modules — doc-verified + Thai prose (T19-20)",
+        "title": "Module 1: Foundations lessons",
         "done": true
       },
       {
-        "title": "frontend-design (light+dark, responsive) + deploy Pages + course.peerapongsm.dev + armory",
+        "title": "Module 2: Prompting + context lessons",
+        "done": true
+      },
+      {
+        "title": "Module 3: Tools + MCP lessons",
+        "done": true
+      },
+      {
+        "title": "Module 4: Agents + orchestration lessons",
+        "done": true
+      },
+      {
+        "title": "Module 5: Safety + eval lessons",
+        "done": true
+      },
+      {
+        "title": "60 lessons doc-verified vs Anthropic docs",
+        "done": true
+      },
+      {
+        "title": "Sim: agentic loop",
+        "done": true
+      },
+      {
+        "title": "Sim: glob match",
+        "done": true
+      },
+      {
+        "title": "Sim: tool-choice",
+        "done": true
+      },
+      {
+        "title": "Sim: schema extract",
+        "done": true
+      },
+      {
+        "title": "Sim: coordinator",
+        "done": true
+      },
+      {
+        "title": "Sim: context window (illustrative)",
+        "done": true
+      },
+      {
+        "title": "Sim: tool picker (illustrative)",
+        "done": true
+      },
+      {
+        "title": "Sim: error decision",
+        "done": true
+      },
+      {
+        "title": "Decision widgets x2",
+        "done": true
+      },
+      {
+        "title": "Honesty labels on illustrative sims",
+        "done": true
+      },
+      {
+        "title": "Full-text search (Ctrl/Cmd-K)",
+        "done": true
+      },
+      {
+        "title": "Progress + resume via localStorage",
+        "done": true
+      },
+      {
+        "title": "Collapsible sidebar + module accordion",
+        "done": true
+      },
+      {
+        "title": "Warm-docs light/dark theme",
+        "done": true
+      },
+      {
+        "title": "Content validator gate",
+        "done": true
+      },
+      {
+        "title": "259 unit tests",
+        "done": true
+      },
+      {
+        "title": "Deploy: GitHub Pages + course.peerapongsm.dev",
+        "done": true
+      },
+      {
+        "title": "Armory entry + CONTEXT map",
+        "done": true
+      },
+      {
+        "title": "Social hero + repurpose pack",
         "done": true
       }
     ]
@@ -1757,23 +2217,55 @@
     "graduated": null,
     "phases": [
       {
-        "title": "brainstorm A+B (satire + affiliate) + grill 6Q + spec + CONTEXT domain model",
+        "title": "Brainstorm dark-pattern catalog",
         "done": true
       },
       {
-        "title": "core TDD: 11 dark-pattern templates + weighted no-repeat generator + shuffle-bag feed + guarded counter + synth sound",
+        "title": "Endless-scroll ad feed (node cap 60)",
         "done": true
       },
       {
-        "title": "DOM subagent-driven: node-cap endless scroll + tap-to-flip bilingual reveal + chrome-as-ads + reduced-motion (per-task review)",
+        "title": "11 dark-pattern ad templates",
         "done": true
       },
       {
-        "title": "real Shopee affiliate links + 2-layer disclosure + guardrails; final whole-branch review (opus)",
+        "title": "Tap-to-flip bilingual reveal",
         "done": true
       },
       {
-        "title": "deploy Pages + ads.peerapongsm.dev + armory",
+        "title": "Affiliate Shopee real offers + disclosure",
+        "done": true
+      },
+      {
+        "title": "Chrome-as-ads disguise",
+        "done": true
+      },
+      {
+        "title": "Shuffle-bag affiliate insertion",
+        "done": true
+      },
+      {
+        "title": "Sound synth + toggle",
+        "done": true
+      },
+      {
+        "title": "Reduced-motion path",
+        "done": true
+      },
+      {
+        "title": "32 unit tests",
+        "done": true
+      },
+      {
+        "title": "Guardrail: no real brands",
+        "done": true
+      },
+      {
+        "title": "Deploy + ads.peerapongsm.dev",
+        "done": true
+      },
+      {
+        "title": "HTTPS cert re-kick",
         "done": true
       }
     ]

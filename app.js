@@ -16,14 +16,8 @@ async function load() {
 
 const donePhases = (p) => (p.phases || []).filter((ph) => ph.done).length;
 
-// A shipped project counts as a full 7 phases; extra logged phases add as bonus.
-const isBuilt = (p) => !!p.graduated || p.status === "done" || p.status === "funding";
-
 function paintProgress() {
-  const done = state.projects.reduce(
-    (n, p) => n + (isBuilt(p) ? Math.max(7, donePhases(p)) : donePhases(p)),
-    0
-  );
+  const done = state.projects.reduce((n, p) => n + donePhases(p), 0);
   const pct = Math.round((done / TOTAL) * 100);
   $("#progress-fill").style.width = pct + "%";
   $("#progress-count").textContent = `${done} / ${TOTAL}`;
