@@ -1110,21 +1110,23 @@
   },
   {
     "id": 30,
-    "name": "เรื่องเล่าก่อนฟ้าสาง",
-    "slug": "if-horpak",
-    "issue": "เรื่องผีไทย + นิยายเลือกทางเดิน เป็นคู่ที่แทบไม่มีใครทำ",
-    "solves": "รวมนิยายสยองเลือกทางเดิน 2 เรื่อง: «หนึ่งคืนที่หอพัก» (37 nodes 5 endings) + «รถเมล์สายสุดท้าย» (39 nodes 6 endings) — ระบบสติ 3 เทียน, secret endings, ปรับความเร็วตัวอักษรได้, เสียงบรรยากาศหลอนสังเคราะห์ล้วน (Web Audio) — กราฟเรื่องทั้งหมด validate เป็น test, เล่นซ้ำได้",
+    "name": "if — ถ้า",
+    "slug": "if",
+    "issue": "นิยายเลือกทางเดินไทยมักมีแนวเดียว; รวมหลายแนวใน engine เดียวแทบไม่มีใครทำ",
+    "solves": "anthology นิยายเลือกทางเดิน (CYOA) ไทยหลายแนวในแอปเดียว: «หนึ่งคืนที่หอพัก» + «รถเมล์สายสุดท้าย» (สยองขวัญ), «แฟนปลอม 7 วัน» (รอมคอม), «วันแรกที่บริษัทจำกัด» (เสียดสีออฟฟิศ) — engine generic named-meter (สติเทียน / ใจหัวใจ / แบตออฟฟิศ) + progress bar ต่อวัน/ต่อเวลา, secret endings, ปรับความเร็วตัวอักษร, เสียงบรรยากาศสังเคราะห์ต่อแนว, ธีมสีต่อแนว (route แยก /slug), กราฟทุกเรื่อง validate เป็น test",
     "medium": "web",
     "tags": [
       "story",
       "fiction",
       "horror",
-      "thai"
+      "thai",
+      "romance",
+      "satire"
     ],
     "track": "live",
     "status": "done",
-    "url": "https://if-horpak.peerapongsm.dev/",
-    "repo": "https://github.com/peerapongsm/if-horpak",
+    "url": "https://if.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/if",
     "download": "",
     "graduated": null,
     "phases": [
@@ -1146,6 +1148,10 @@
       },
       {
         "title": "Text-speed setting + เรื่องที่ 2 «รถเมล์สายสุดท้าย» + ambient audio",
+        "done": true
+      },
+      {
+        "title": "รวมเป็น collection «if — ถ้า»: +2 เรื่อง (รอมคอม/เสียดสี), meter ต่อแนว, theme+routing ต่อ route, ย้ายโดเมน if.peerapongsm.dev",
         "done": true
       }
     ]
