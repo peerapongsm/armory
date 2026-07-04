@@ -999,7 +999,7 @@
     "name": "ชีวิตเป็นสัปดาห์",
     "slug": "life-in-weeks",
     "issue": "เราไม่เคยเห็นชีวิตทั้งชีวิตในภาพเดียว",
-    "solves": "grid 1 ช่อง = 1 สัปดาห์ทั้งชีวิต (อายุคาดเฉลี่ยไทย WHO 2020) + ช่วงวัยไทย + milestone เอง + ตัวเลขสะเทือนใจ + export โปสเตอร์ PNG — ทุกอย่าง on-device",
+    "solves": "grid 1 ช่อง = 1 สัปดาห์ทั้งชีวิต (อายุคาดเฉลี่ยไทย WHO 2020) + ช่วงวัยไทย + milestone เอง + ตัวเลขสะเทือนใจ + export โปสเตอร์ PNG — ทุกอย่าง on-device · อัปเดต 2026-07: ตั้งค่าเองได้ — เลือกประเทศ/ปีข้อมูล WHO (39 ประเทศ, ดึงจาก GHO WHOSIS_000001 จริง), ใส่อายุคาดเฉลี่ยของตัวเอง+พ่อแม่เอง (override ค่า WHO), และจำนวนครั้งที่เจอพ่อแม่ต่อปี",
     "medium": "web",
     "tags": [
       "art",
@@ -1028,6 +1028,10 @@
       },
       {
         "title": "Swiss-poster design pass + deploy",
+        "done": true
+      },
+      {
+        "title": "user-configurable inputs: 39-country WHO data (country/year) + life-expectancy override (self+parent) + visits-per-year",
         "done": true
       }
     ]
