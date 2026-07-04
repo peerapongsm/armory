@@ -24,6 +24,30 @@
       {
         "title": "Umami analytics wired across all projects",
         "done": true
+      },
+      {
+        "title": "Live search across all projects",
+        "done": true
+      },
+      {
+        "title": "Status + track filter tabs",
+        "done": true
+      },
+      {
+        "title": "Per-project problem / solution / phase cards",
+        "done": true
+      },
+      {
+        "title": "Year-progress bar and counter",
+        "done": true
+      },
+      {
+        "title": "Custom apex domain peerapongsm.dev over HTTPS",
+        "done": true
+      },
+      {
+        "title": "Graduated-project promotion badges",
+        "done": true
       }
     ]
   },
