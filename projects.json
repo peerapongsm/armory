@@ -1704,5 +1704,46 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 45,
+    "name": "โฆษณานรก",
+    "slug": "ads",
+    "issue": "อินเทอร์เน็ตทุกวันนี้เต็มไปด้วยโฆษณาหลอก dark pattern — ป๊อปอัปรางวัลปลอม เว็บพนัน สินเชื่อเถื่อน scareware นับถอยหลังปลอม — เจอทุกวันจนชินจนแยกไม่ออกว่าอันไหนกลลวง แถมเว็บที่มีแต่โฆษณาเจ้าของก็แทบไม่ได้เงินจริง",
+    "solves": "เว็บ «มีแต่โฆษณา» เชิงเสียดสี — feed เลื่อนไม่รู้จบของโฆษณาปลอมที่ generate เอง ล้อ dark pattern จริง 11 แบบ (แต่ละใบแตะพลิกดูเฉลยว่าเสียดสีกลลวงอะไร ไทย + English term) · แทรกการ์ด affiliate จริง (Shopee) ที่ disclose ชัดทั้ง 2 ชั้น กดช้อปเองเท่านั้น ไม่หลอกคลิก · แตะพลิกจับผิดว่าอันไหนจริงอันไหนล้อ + counter · chrome ทั้งหมด (disclosure/about/เสียง) อำพรางเป็นโฆษณา · node-cap endless scroll กัน memory leak · guardrail ไม่มี brand จริง โฆษณาปลอมกดไม่ได้ · Vite+TS 32 tests subagent-driven",
+    "medium": "web",
+    "tags": [
+      "satire",
+      "advertising",
+      "interactive"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://ads.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/ads",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "brainstorm A+B (satire + affiliate) + grill 6Q + spec + CONTEXT domain model",
+        "done": true
+      },
+      {
+        "title": "core TDD: 11 dark-pattern templates + weighted no-repeat generator + shuffle-bag feed + guarded counter + synth sound",
+        "done": true
+      },
+      {
+        "title": "DOM subagent-driven: node-cap endless scroll + tap-to-flip bilingual reveal + chrome-as-ads + reduced-motion (per-task review)",
+        "done": true
+      },
+      {
+        "title": "real Shopee affiliate links + 2-layer disclosure + guardrails; final whole-branch review (opus)",
+        "done": true
+      },
+      {
+        "title": "deploy Pages + ads.peerapongsm.dev + armory",
+        "done": true
+      }
+    ]
   }
 ]
