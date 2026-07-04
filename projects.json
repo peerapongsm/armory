@@ -20,6 +20,10 @@
       {
         "title": "Hub page, render, deploy on GitHub Pages",
         "done": true
+      },
+      {
+        "title": "Umami analytics wired across all projects",
+        "done": true
       }
     ]
   },
