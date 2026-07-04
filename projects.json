@@ -1663,5 +1663,46 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 44,
+    "name": "เรียนรู้ Claude Architect",
+    "slug": "course",
+    "issue": "อยากเข้าใจการออกแบบระบบ production ด้วย Claude (Agent SDK, API, Claude Code, MCP) แต่ exam guide เป็น bullet อังกฤษล้วน อ่านแล้วไม่เห็นภาพ — ไม่มีที่เรียนแบบ interactive ภาษาไทยที่สอนให้เข้าใจจริง ไม่ใช่แค่ติวข้อสอบ",
+    "solves": "Study guide interactive ภาษาไทยครอบคลุมทุก topic ของ Claude Certified Architect – Foundations: 60 บทเรียน 5 โมดูล (agentic loop, tool/MCP design, Claude Code config, prompt/structured output, context/reliability) · ทุก technical claim verify กับ Anthropic docs จริง + ลิงก์อ่านต่อ (จับ doc-vs-guide เช่น Task→Agent tool, allowed-tools = pre-approve ไม่ใช่ restrict) · 8 interactive sim (agentic loop stepper, tool picker, glob matcher, schema extraction, context window ฯลฯ) + 2 decision widget · full-text search Ctrl/Cmd-K (Thai substring) · progress localStorage · เน้นเรียนรู้ไม่ใช่ติวข้อสอบ · Next 15 static export + MDX · 253 tests",
+    "medium": "web",
+    "tags": [
+      "education",
+      "reference",
+      "ai"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://course.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/course",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "spec (grilled 9Q + domain-modeling) + plan 23 tasks",
+        "done": true
+      },
+      {
+        "title": "foundation TDD: Next 15 static export + MDX registry + routing + sidebar/progress + full-text search (T1-9)",
+        "done": true
+      },
+      {
+        "title": "8 interactive sims + 2 decision widgets, TDD pure logic (T10-18)",
+        "done": true
+      },
+      {
+        "title": "authoring 60 lessons / 5 modules — doc-verified + Thai prose (T19-20)",
+        "done": true
+      },
+      {
+        "title": "frontend-design (light+dark, responsive) + deploy Pages + course.peerapongsm.dev + armory",
+        "done": true
+      }
+    ]
   }
 ]
