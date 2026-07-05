@@ -2292,11 +2292,19 @@
     "graduated": null,
     "phases": [
       {
-        "title": "ตรวจจับการเขย่า (device motion)",
+        "title": "Brainstorm + tone lock",
         "done": false
       },
       {
-        "title": "ไม้เซียมซี + 28 คำทำนาย",
+        "title": "ตรวจจับการเขย่า (device motion / accelerometer)",
+        "done": false
+      },
+      {
+        "title": "กลไกไม้หลุด + สุ่มผล",
+        "done": false
+      },
+      {
+        "title": "28 คำทำนาย (เขียนเอง) + reveal UI",
         "done": false
       },
       {
@@ -2326,11 +2334,35 @@
     "graduated": null,
     "phases": [
       {
-        "title": "Thai syllable parser (grounded PyThaiNLP)",
+        "title": "Brainstorm + เลือก 3 ฉันทลักษณ์",
         "done": false
       },
       {
-        "title": "ตรวจ 3 ฉันทลักษณ์ + แนะคำสัมผัส",
+        "title": "PyThaiNLP build-time oracle (gold syllable set)",
+        "done": false
+      },
+      {
+        "title": "Thai syllable parser (rule-based TS)",
+        "done": false
+      },
+      {
+        "title": "ตรวจกลอนแปด",
+        "done": false
+      },
+      {
+        "title": "ตรวจกาพย์ยานี ๑๑",
+        "done": false
+      },
+      {
+        "title": "ตรวจโคลงสี่ (เอก-โท)",
+        "done": false
+      },
+      {
+        "title": "ตรวจสัมผัส + ไฮไลต์จุดผิด",
+        "done": false
+      },
+      {
+        "title": "แนะคำสัมผัส (rhyme suggest)",
         "done": false
       },
       {
@@ -2360,11 +2392,27 @@
     "graduated": null,
     "phases": [
       {
-        "title": "ห้องต่อกลอนสด (Supabase Realtime)",
+        "title": "Brainstorm + room model",
         "done": false
       },
       {
-        "title": "prosody gate จาก #47",
+        "title": "Supabase Realtime schema + RLS",
+        "done": false
+      },
+      {
+        "title": "ห้อง invite + turn-based (สูงสุด 8 คน)",
+        "done": false
+      },
+      {
+        "title": "prosody gate จาก #47 (acceptance)",
+        "done": false
+      },
+      {
+        "title": "rate-limit + moderation",
+        "done": false
+      },
+      {
+        "title": "share / export กลอน",
         "done": false
       },
       {
@@ -2394,11 +2442,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "เอนจินจัดสรรที่นั่ง MMM 2566 (config-driven)",
+        "title": "Brainstorm + config schema (MMM 2566)",
         "done": false
       },
       {
-        "title": "ตัวจับขั้ว + คำนวณนายก",
+        "title": "เอนจินจัดสรรที่นั่ง (400 เขต + 100 บัญชีรายชื่อ)",
+        "done": false
+      },
+      {
+        "title": "input ที่นั่ง/คะแนน + preload ผล 2566",
+        "done": false
+      },
+      {
+        "title": "ตัวจับขั้ว + majority 251 + PM math",
+        "done": false
+      },
+      {
+        "title": "config-driven (รองรับเปลี่ยนระบบ)",
         "done": false
       },
       {
@@ -2428,11 +2488,31 @@
     "graduated": null,
     "phases": [
       {
-        "title": "core กฎ + มิเตอร์ เวลา/เงิน/ใจ",
+        "title": "Brainstorm + rule/meter core",
         "done": false
       },
       {
-        "title": "ด่านประชาชน + ด่านเจ้าหน้าที่",
+        "title": "document dependency graph",
+        "done": false
+      },
+      {
+        "title": "มิเตอร์ เวลา/เงิน/ใจ",
+        "done": false
+      },
+      {
+        "title": "ด่านประชาชน (navigate)",
+        "done": false
+      },
+      {
+        "title": "ด่านเจ้าหน้าที่ (inspect / stamp)",
+        "done": false
+      },
+      {
+        "title": "scenario ราชการจริง (บัตร ปชช./ทะเบียน/ใบขับขี่)",
+        "done": false
+      },
+      {
+        "title": "ending + star rating",
         "done": false
       },
       {
@@ -2462,11 +2542,23 @@
     "graduated": null,
     "phases": [
       {
-        "title": "เอนจิน 30 วัน + 3 ตัวละคร",
+        "title": "Brainstorm + Thai wage/price data (cited)",
         "done": false
       },
       {
-        "title": "เหตุการณ์บีบเลือก + การ์ดข้อมูลจริง",
+        "title": "เอนจิน 30 วัน (income/expense/meter เงิน)",
+        "done": false
+      },
+      {
+        "title": "3 ตัวละคร (แรงงาน/เลี้ยงเดี่ยว/จบใหม่)",
+        "done": false
+      },
+      {
+        "title": "เหตุการณ์บีบเลือก (dilemma)",
+        "done": false
+      },
+      {
+        "title": "การ์ดข้อมูลจริง + แหล่งช่วยเหลือ",
         "done": false
       },
       {
@@ -2496,11 +2588,31 @@
     "graduated": null,
     "phases": [
       {
-        "title": "ห้องแกลเลอรี 3D (Three.js) + scroll camera",
+        "title": "Brainstorm + gallery layout",
         "done": false
       },
       {
-        "title": "สถิติสดจาก analytics + 2D fallback",
+        "title": "Three.js hall + scroll-driven camera",
+        "done": false
+      },
+      {
+        "title": "exhibit ต่อโปรเจกต์ (screenshot + plaque)",
+        "done": false
+      },
+      {
+        "title": "chronological path (#1 → #52)",
+        "done": false
+      },
+      {
+        "title": "live stats จาก armory-analytics + baked fallback",
+        "done": false
+      },
+      {
+        "title": "2D scrollytelling fallback (mobile / no-WebGL)",
+        "done": false
+      },
+      {
+        "title": "narrative beats + reflection ending",
         "done": false
       },
       {
