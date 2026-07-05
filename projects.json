@@ -2270,5 +2270,243 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 46,
+    "name": "เซียมซี",
+    "slug": "siamsi",
+    "issue": "เซียมซีออนไลน์ทั่วไปแค่กดสุ่ม ไม่มีสัมผัสของการเขย่ากระบอกจริง",
+    "solves": "ถือมือถือเป็นกระบอกเซียมซี เขย่าจริงด้วย accelerometer ให้ไม้หลุดออกมา เผยคำทำนาย 1 ใน 28 บทที่เขียนเองในสำนวนดั้งเดิม เล่นออฟไลน์ ไม่มี backend",
+    "medium": "web",
+    "tags": [
+      "thai-culture",
+      "interactive",
+      "motion-sensor",
+      "web"
+    ],
+    "track": "live",
+    "status": "building",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "ตรวจจับการเขย่า (device motion)",
+        "done": false
+      },
+      {
+        "title": "ไม้เซียมซี + 28 คำทำนาย",
+        "done": false
+      },
+      {
+        "title": "Deploy siamsi.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "เอนจินโคลงกลอน",
+    "slug": "klon",
+    "issue": "ไม่มีเครื่องมือเว็บตรวจฉันทลักษณ์กลอนไทยแบบ interactive มีแต่บทความอธิบายกฎ",
+    "solves": "เอนจินฉันทลักษณ์ + สตูดิโอเขียน: พิมพ์กลอนแปด/กาพย์ยานี ๑๑/โคลงสี่ แล้วตัดพยางค์ ตรวจสัมผัส-เอกโท-จำนวนคำสด ไฮไลต์จุดผิดพร้อมคำอธิบาย และแนะคำสัมผัส ด้วย Thai syllable parser ที่เขียนเอง",
+    "medium": "web",
+    "tags": [
+      "thai-language",
+      "poetry",
+      "tool",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Thai syllable parser (grounded PyThaiNLP)",
+        "done": false
+      },
+      {
+        "title": "ตรวจ 3 ฉันทลักษณ์ + แนะคำสัมผัส",
+        "done": false
+      },
+      {
+        "title": "Deploy klon.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "ต่อกลอนสด",
+    "slug": "torklon",
+    "issue": "อยากต่อกลอนเล่นกับเพื่อนสด ๆ แต่ไม่มีที่ตรวจฉันทลักษณ์ให้อัตโนมัติ",
+    "solves": "ห้องต่อกลอนสดสูงสุด 8 คน ผลัดกันเติมวรรค เอนจิน #47 ตรวจสัมผัส + จำนวนคำแบบ real-time ก่อนรับบรรทัด เข้าห้องด้วยลิงก์เชิญ บน Supabase Realtime free tier",
+    "medium": "web",
+    "tags": [
+      "poetry",
+      "realtime",
+      "multiplayer",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "ห้องต่อกลอนสด (Supabase Realtime)",
+        "done": false
+      },
+      {
+        "title": "prosody gate จาก #47",
+        "done": false
+      },
+      {
+        "title": "Deploy torklon.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "ระบบเลือกตั้งจำลอง",
+    "slug": "lueaktang",
+    "issue": "คำนวณที่นั่ง ส.ส. จากผลโหวตแล้วจับขั้วรัฐบาลทำมือยาก เข้าใจผิดง่าย",
+    "solves": "Sandbox เลือกตั้งไทย: กรอกที่นั่งเขต + คะแนนบัญชีรายชื่อ แล้วคำนวณจัดสรร 500 ที่นั่ง (MMM 2566) จากนั้นลองจับขั้ว เช็คใครตั้งรัฐบาล/เป็นนายกได้ config-driven ใช้ซ้ำได้ทุกเลือกตั้ง",
+    "medium": "web",
+    "tags": [
+      "civic",
+      "election",
+      "calculator",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "เอนจินจัดสรรที่นั่ง MMM 2566 (config-driven)",
+        "done": false
+      },
+      {
+        "title": "ตัวจับขั้ว + คำนวณนายก",
+        "done": false
+      },
+      {
+        "title": "Deploy lueaktang.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "ราชการ Simulator",
+    "slug": "rachakan",
+    "issue": "ความยุ่งยากของระบบราชการไทยเล่าเป็นเรื่องตลกร้ายได้ แต่ไม่มีเกมที่ให้ลองทั้งสองฝั่งเคาน์เตอร์",
+    "solves": "เกมเสียดสีราชการไทยแนว Papers-Please: บางด่านเป็นประชาชนฝ่าเขาวงกตเอกสาร บางด่านเป็นเจ้าหน้าที่ปั๊มกฎเดียวกัน เดินกราฟ dependency เอกสาร + จัดการมิเตอร์ เวลา/เงิน/ใจ",
+    "medium": "web",
+    "tags": [
+      "game",
+      "satire",
+      "thai-culture",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "core กฎ + มิเตอร์ เวลา/เงิน/ใจ",
+        "done": false
+      },
+      {
+        "title": "ด่านประชาชน + ด่านเจ้าหน้าที่",
+        "done": false
+      },
+      {
+        "title": "Deploy rachakan.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "เดือนชนเดือน",
+    "slug": "duan-chon-duan",
+    "issue": "คนเข้าใจความจนแบบผิวเผิน ไม่รู้ว่าใช้ชีวิตเดือนชนเดือนด้วยค่าแรงไทยจริงเป็นยังไง",
+    "solves": "ลองใช้ชีวิต 1 เดือนบนงบคนรายได้น้อยไทยจริงแนว Spent: 3 ตัวละคร (แรงงานขั้นต่ำ/พ่อแม่เลี้ยงเดี่ยว/เด็กจบใหม่) 30 วัน รายรับ-รายจ่าย-เหตุการณ์บีบเลือก จบด้วยการ์ดข้อมูลจริง + แหล่งช่วยเหลือ",
+    "medium": "web",
+    "tags": [
+      "game",
+      "social",
+      "empathy",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "เอนจิน 30 วัน + 3 ตัวละคร",
+        "done": false
+      },
+      {
+        "title": "เหตุการณ์บีบเลือก + การ์ดข้อมูลจริง",
+        "done": false
+      },
+      {
+        "title": "Deploy duan-chon-duan.peerapongsm.dev",
+        "done": false
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "นิทรรศการ 3D",
+    "slug": "nithat",
+    "issue": "รวมผลงานทั้งปีเป็นแค่ index grid กับ dashboard ยังขาดชั้นเล่าเรื่องเชิงอารมณ์",
+    "solves": "เดินชมทั้งปีเป็นพิพิธภัณฑ์ 3D: scroll พากล้องผ่านห้องแสดงงานแต่ละโปรเจกต์ตามลำดับที่สร้าง พร้อม narrative + สถิติสด จบที่บทสะท้อน ใช้ Three.js/WebGL + 2D fallback บนมือถือ (capstone ทำท้ายสุด)",
+    "medium": "web",
+    "tags": [
+      "webgl",
+      "3d",
+      "retrospective",
+      "web"
+    ],
+    "track": "live",
+    "status": "planned",
+    "url": "",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "ห้องแกลเลอรี 3D (Three.js) + scroll camera",
+        "done": false
+      },
+      {
+        "title": "สถิติสดจาก analytics + 2D fallback",
+        "done": false
+      },
+      {
+        "title": "Deploy nithat.peerapongsm.dev",
+        "done": false
+      }
+    ]
   }
 ]
