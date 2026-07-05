@@ -496,19 +496,19 @@
     "id": 12,
     "name": "DuckDuckPlan",
     "slug": "duckduckplan",
-    "issue": "Personal and small-team project planning is scattered across apps, with no single offline place for tasks, timeline, and files.",
-    "solves": "Offline desktop project planner: projects in Board / Gantt / List / Matrix / Time views, plus calendar, dashboard, and file attachments. Local SQLite.",
-    "medium": "desktop",
+    "issue": "Personal project planning is scattered across apps, with no single synced place to track tasks, timeline, and progress across devices.",
+    "solves": "Online, synced project planner: Board / Gantt / Kanban / Calendar / Matrix / Time / Dashboard views, Google sign-in, mobile-friendly, with one-way Google Calendar sync. Supabase backend. (Offline desktop build still available.)",
+    "medium": "web",
     "tags": [
       "productivity",
       "project-management",
-      "desktop",
-      "offline"
+      "web",
+      "sync"
     ],
-    "track": "desktop",
+    "track": "live",
     "status": "done",
-    "url": "",
-    "repo": "https://github.com/peerapongsm/duckduckplan",
+    "url": "https://duckduckplan.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/duckduckplan-webapp",
     "download": "https://github.com/peerapongsm/duckduckplan/releases/latest",
     "graduated": null,
     "phases": [
@@ -517,23 +517,23 @@
         "done": true
       },
       {
-        "title": "Core data model",
+        "title": "Supabase schema + RLS data model",
         "done": true
       },
       {
-        "title": "Core logic",
+        "title": "React/Vite frontend (7 planner views)",
         "done": true
       },
       {
-        "title": "Primary UI",
+        "title": "Google sign-in (SSO)",
         "done": true
       },
       {
-        "title": "Packaging / installer",
+        "title": "Mobile-responsive UI",
         "done": true
       },
       {
-        "title": "Offline data store",
+        "title": "One-way Google Calendar sync",
         "done": true
       }
     ]
