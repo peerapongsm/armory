@@ -2202,12 +2202,13 @@
     "name": "โฆษณานรก",
     "slug": "ads",
     "issue": "อินเทอร์เน็ตทุกวันนี้เต็มไปด้วยโฆษณาหลอก dark pattern — ป๊อปอัปรางวัลปลอม เว็บพนัน สินเชื่อเถื่อน scareware นับถอยหลังปลอม — เจอทุกวันจนชินจนแยกไม่ออกว่าอันไหนกลลวง แถมเว็บที่มีแต่โฆษณาเจ้าของก็แทบไม่ได้เงินจริง",
-    "solves": "เว็บ «มีแต่โฆษณา» เชิงเสียดสี — feed เลื่อนไม่รู้จบของโฆษณาปลอมที่ generate เอง ล้อ dark pattern จริง 11 แบบ (แต่ละใบแตะพลิกดูเฉลยว่าเสียดสีกลลวงอะไร ไทย + English term) · แทรกการ์ด affiliate จริง (Shopee) ที่ disclose ชัดทั้ง 2 ชั้น กดช้อปเองเท่านั้น ไม่หลอกคลิก · แตะพลิกจับผิดว่าอันไหนจริงอันไหนล้อ + counter · chrome ทั้งหมด (disclosure/about/เสียง) อำพรางเป็นโฆษณา · node-cap endless scroll กัน memory leak · guardrail ไม่มี brand จริง โฆษณาปลอมกดไม่ได้ · Vite+TS 32 tests subagent-driven",
+    "solves": "เว็บ «มีแต่โฆษณา» เชิงเสียดสี — feed เลื่อนไม่รู้จบของโฆษณาปลอมที่ generate เอง ล้อ dark pattern จริง 11 แบบ (แต่ละใบแตะพลิกดูเฉลยว่าเสียดสีกลลวงอะไร ไทย + English term) · แทรกการ์ด affiliate จริง (Shopee) ที่ disclose ชัดทั้ง 2 ชั้น กดช้อปเองเท่านั้น ไม่หลอกคลิก · แตะพลิกจับผิดว่าอันไหนจริงอันไหนล้อ + counter · chrome ทั้งหมด (disclosure/about/เสียง) อำพรางเป็นโฆษณา · node-cap endless scroll กัน memory leak · guardrail ไม่มี brand จริง โฆษณาปลอมกดไม่ได้ · Vite+TS subagent-driven. [redesign] banner รูปภาพ (royalty-free object photos + procedural SVG motif), layout แยก desktop ad-portal เต็มจอ (masonry ปรับคอลัมน์ตามจอ) vs mobile single-column feed, real affiliate card โชว์รูปสินค้าจริง, แก้บั๊ก adblock บน desktop (rename class ad-* → กัน cosmetic filter ซ่อนหน้าเปล่า)",
     "medium": "web",
     "tags": [
       "satire",
       "advertising",
-      "interactive"
+      "interactive",
+      "responsive"
     ],
     "track": "live",
     "status": "done",
