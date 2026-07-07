@@ -2435,35 +2435,35 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://lueaktang.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/lueaktang",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + config schema (MMM 2566)",
-        "done": false
+        "done": true
       },
       {
         "title": "เอนจินจัดสรรที่นั่ง (400 เขต + 100 บัญชีรายชื่อ)",
-        "done": false
+        "done": true
       },
       {
         "title": "input ที่นั่ง/คะแนน + preload ผล 2566",
-        "done": false
+        "done": true
       },
       {
         "title": "ตัวจับขั้ว + majority 251 + PM math",
-        "done": false
+        "done": true
       },
       {
         "title": "config-driven (รองรับเปลี่ยนระบบ)",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy lueaktang.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
