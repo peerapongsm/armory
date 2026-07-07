@@ -2327,47 +2327,47 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://klon.peerapongsm.dev/",
+    "repo": "klon",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + เลือก 3 ฉันทลักษณ์",
-        "done": false
+        "done": true
       },
       {
         "title": "PyThaiNLP build-time oracle (gold syllable set)",
-        "done": false
+        "done": true
       },
       {
         "title": "Thai syllable parser (rule-based TS)",
-        "done": false
+        "done": true
       },
       {
         "title": "ตรวจกลอนแปด",
-        "done": false
+        "done": true
       },
       {
         "title": "ตรวจกาพย์ยานี ๑๑",
-        "done": false
+        "done": true
       },
       {
         "title": "ตรวจโคลงสี่ (เอก-โท)",
-        "done": false
+        "done": true
       },
       {
         "title": "ตรวจสัมผัส + ไฮไลต์จุดผิด",
-        "done": false
+        "done": true
       },
       {
         "title": "แนะคำสัมผัส (rhyme suggest)",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy klon.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
