@@ -2285,31 +2285,31 @@
       "web"
     ],
     "track": "live",
-    "status": "building",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://siamsi.peerapongsm.dev/",
+    "repo": "siamsi",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + tone lock",
-        "done": false
+        "done": true
       },
       {
         "title": "ตรวจจับการเขย่า (device motion / accelerometer)",
-        "done": false
+        "done": true
       },
       {
         "title": "กลไกไม้หลุด + สุ่มผล",
-        "done": false
+        "done": true
       },
       {
         "title": "28 คำทำนาย (เขียนเอง) + reveal UI",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy siamsi.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
