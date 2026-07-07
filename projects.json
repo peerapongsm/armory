@@ -2385,39 +2385,39 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://torklon.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/torklon",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + room model",
-        "done": false
+        "done": true
       },
       {
         "title": "Supabase Realtime schema + RLS",
-        "done": false
+        "done": true
       },
       {
         "title": "ห้อง invite + turn-based (สูงสุด 8 คน)",
-        "done": false
+        "done": true
       },
       {
         "title": "prosody gate จาก #47 (acceptance)",
-        "done": false
+        "done": true
       },
       {
         "title": "rate-limit + moderation",
-        "done": false
+        "done": true
       },
       {
         "title": "share / export กลอน",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy torklon.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
