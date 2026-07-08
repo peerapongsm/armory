@@ -2535,35 +2535,35 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://duan-chon-duan.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/duan-chon-duan",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + Thai wage/price data (cited)",
-        "done": false
+        "done": true
       },
       {
         "title": "เอนจิน 30 วัน (income/expense/meter เงิน)",
-        "done": false
+        "done": true
       },
       {
         "title": "3 ตัวละคร (แรงงาน/เลี้ยงเดี่ยว/จบใหม่)",
-        "done": false
+        "done": true
       },
       {
         "title": "เหตุการณ์บีบเลือก (dilemma)",
-        "done": false
+        "done": true
       },
       {
         "title": "การ์ดข้อมูลจริง + แหล่งช่วยเหลือ",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy duan-chon-duan.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
