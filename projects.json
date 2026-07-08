@@ -2481,43 +2481,43 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://rachakan.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/rachakan",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + rule/meter core",
-        "done": false
+        "done": true
       },
       {
         "title": "document dependency graph",
-        "done": false
+        "done": true
       },
       {
         "title": "มิเตอร์ เวลา/เงิน/ใจ",
-        "done": false
+        "done": true
       },
       {
         "title": "ด่านประชาชน (navigate)",
-        "done": false
+        "done": true
       },
       {
         "title": "ด่านเจ้าหน้าที่ (inspect / stamp)",
-        "done": false
+        "done": true
       },
       {
         "title": "scenario ราชการจริง (บัตร ปชช./ทะเบียน/ใบขับขี่)",
-        "done": false
+        "done": true
       },
       {
         "title": "ending + star rating",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy rachakan.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   },
