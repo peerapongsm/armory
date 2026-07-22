@@ -2581,43 +2581,43 @@
       "web"
     ],
     "track": "live",
-    "status": "planned",
-    "url": "",
-    "repo": "",
+    "status": "done",
+    "url": "https://nithat.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/nithat",
     "download": "",
     "graduated": null,
     "phases": [
       {
         "title": "Brainstorm + gallery layout",
-        "done": false
+        "done": true
       },
       {
         "title": "Three.js hall + scroll-driven camera",
-        "done": false
+        "done": true
       },
       {
         "title": "exhibit ต่อโปรเจกต์ (screenshot + plaque)",
-        "done": false
+        "done": true
       },
       {
         "title": "chronological path (#1 → #52)",
-        "done": false
+        "done": true
       },
       {
         "title": "live stats จาก armory-analytics + baked fallback",
-        "done": false
+        "done": true
       },
       {
         "title": "2D scrollytelling fallback (mobile / no-WebGL)",
-        "done": false
+        "done": true
       },
       {
         "title": "narrative beats + reflection ending",
-        "done": false
+        "done": true
       },
       {
         "title": "Deploy nithat.peerapongsm.dev",
-        "done": false
+        "done": true
       }
     ]
   }
