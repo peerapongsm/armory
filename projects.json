@@ -2620,5 +2620,93 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 53,
+    "name": "วันนี้ลา",
+    "slug": "wanneela",
+    "issue": "SME เล็กจัดการคำขอลาพนักงานผ่านแชทกระจัดกระจาย ไม่มี quota ไม่มี audit trail",
+    "solves": "LINE bot จัดการลาแบบ org-based (owner/employee หลาย org), quota อัตโนมัติตามกฎหมายแรงงาน 5 ประเภท + carry-over + override รายคน, approve/decline ผ่าน flex message, rich menu แยกตาม role, admin dashboard วิเคราะห์การใช้งาน",
+    "medium": "web",
+    "tags": [
+      "line-bot",
+      "sme",
+      "hr",
+      "web"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://wanneela.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/wanneela-leave-bot",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "MVP: create/join org + ยื่นคำขอลา + approve/decline",
+        "done": true
+      },
+      {
+        "title": "Quota ตามกฎหมาย + carry-over",
+        "done": true
+      },
+      {
+        "title": "Soft-delete org + owner self-request + overlap prevention",
+        "done": true
+      },
+      {
+        "title": "Rich menu แยกตาม role (default/owner/employee)",
+        "done": true
+      },
+      {
+        "title": "Admin dashboard (analytics)",
+        "done": true
+      },
+      {
+        "title": "Deploy production wanneela.peerapongsm.dev",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "หมดวันนี้",
+    "slug": "expiry",
+    "issue": "ของในบ้านหมดอายุไม่รู้ตัว ลืมเช็ควันหมดอายุที่กระจายอยู่หลายที่",
+    "solves": "LINE bot เพิ่มของ+วันหมดอายุผ่านแชท เตือนอัตโนมัติล่วงหน้า 30/7/1/0 วันก่อนหมดอายุ (cron รายวัน), ดู/แก้ไข/เปลี่ยนสถานะรายการได้",
+    "medium": "web",
+    "tags": [
+      "line-bot",
+      "household",
+      "reminder",
+      "web"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://expiry.peerapongsm.dev/",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "MVP: เพิ่มของ + ดูรายการ ผ่านแชท LINE",
+        "done": true
+      },
+      {
+        "title": "Reminder cron 30/7/1/0 วันก่อนหมดอายุ",
+        "done": true
+      },
+      {
+        "title": "แก้ไขชื่อ/วันหมดอายุ + ปิด/เก็บสถานะของ",
+        "done": true
+      },
+      {
+        "title": "Rich menu (เพิ่มของ / ดูรายการ)",
+        "done": true
+      },
+      {
+        "title": "Deploy production expiry.peerapongsm.dev",
+        "done": true
+      }
+    ]
   }
 ]
