@@ -2708,5 +2708,51 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 55,
+    "name": "Time Travel",
+    "slug": "time-travel",
+    "issue": "Historical finance advice usually hides its evidence, uncertainty, and the access constraints that made an opportunity possible.",
+    "solves": "An English interactive course lets a time traveler explore 63 evidence-backed windows, compare lawful wealth-building opportunities, and learn the mechanisms without hindsight promises.",
+    "medium": "web",
+    "tags": [
+      "history",
+      "finance",
+      "education",
+      "interactive"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://time-travel.peerapongsm.dev/",
+    "repo": "https://github.com/peerapongsm/time-travel",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Research + evidence model",
+        "done": true
+      },
+      {
+        "title": "Historical year resolver",
+        "done": true
+      },
+      {
+        "title": "63 briefing windows",
+        "done": true
+      },
+      {
+        "title": "Interactive course UI",
+        "done": true
+      },
+      {
+        "title": "Accessibility + responsive QA",
+        "done": true
+      },
+      {
+        "title": "Deploy time-travel.peerapongsm.dev",
+        "done": true
+      }
+    ]
   }
 ]
