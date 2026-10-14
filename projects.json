@@ -2754,5 +2754,91 @@
         "done": true
       }
     ]
+  },
+  {
+    "id": 56,
+    "name": "ซิ่งรอระบาย",
+    "slug": "bangkok-flood-race",
+    "issue": "Every rainy season Bangkok roads turn into canals, and all anyone can do is complain about the drainage.",
+    "solves": "A Roblox arcade racer on flooded Bangkok roads: 5 real-district maps, 7 vehicles picked for water depth, satirical items, and private rooms with 6-digit codes for racing friends.",
+    "medium": "roblox",
+    "tags": [
+      "roblox",
+      "game",
+      "racing",
+      "satire",
+      "bangkok"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://www.roblox.com/games/133243659083288",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Core race: water depth, vehicles, bots",
+        "done": true
+      },
+      {
+        "title": "Items + lobby + code rooms",
+        "done": true
+      },
+      {
+        "title": "5 Bangkok maps with landmarks",
+        "done": true
+      },
+      {
+        "title": "Mobile HUD redesign",
+        "done": true
+      },
+      {
+        "title": "Publish public on Roblox",
+        "done": true
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "สำนักงานเขต SIM",
+    "slug": "rachakan-roblox",
+    "issue": "Thai government-office errands are a maze of queues, missing forms and bounced documents that everyone knows but nobody can laugh at together.",
+    "solves": "A multiplayer Roblox satire of a fictional district office: play a citizen fighting the queue or an officer stamping approve/reject while dodging tea-money envelopes and the inspector.",
+    "medium": "roblox",
+    "tags": [
+      "roblox",
+      "game",
+      "satire",
+      "simulator",
+      "multiplayer"
+    ],
+    "track": "live",
+    "status": "done",
+    "url": "https://www.roblox.com/games/101475900857074",
+    "repo": "",
+    "download": "",
+    "graduated": null,
+    "phases": [
+      {
+        "title": "Queue, day cycle + counter takeover",
+        "done": true
+      },
+      {
+        "title": "Officer role: document check + stamp",
+        "done": true
+      },
+      {
+        "title": "Bribe envelope + inspector",
+        "done": true
+      },
+      {
+        "title": "Mobile UI + in-game feedback",
+        "done": true
+      },
+      {
+        "title": "Publish public on Roblox",
+        "done": true
+      }
+    ]
   }
 ]
